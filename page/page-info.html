@@ -4,9 +4,9 @@
 <head>
   <meta name="viewport" content="width = device-width, initial-scale = 1">
   <meta charset="UTF-8">
+  <title></title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <title>EsNovels</title>
   <link rel="stylesheet" type="text/css" href="/style.css">
   <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
 </head>
@@ -93,6 +93,14 @@
     getNovelInfo()
     .then(data => {
        const result = data.data;
+       
+       const titlePage = "Download "+result[id].title+ " " +result[id].type;
+       document.title = titlePage;
+       
+       const pageTitle = result[id].title+" "+result[id].type;
+       const pageReplace = pageTitle.replaceAll(" ", "-");
+       const pageUrl = "<meta name=\"url\" content=\"https://esdeguinio7.github.io/EsNovels1/page/"+pageReplace+"\"/>";
+       $('head').append(pageUrl);
        
        $('#cover').attr('src',result[id].cover);
        $('#title').text(result[id].title);
