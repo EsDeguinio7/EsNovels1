@@ -7,7 +7,7 @@
   <title></title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link rel="stylesheet" type="text/css" href="https://esdeguinio7.github.io/EsNovels1/style.css">
   <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
 </head>
 
@@ -69,8 +69,8 @@
     </footer>
   </div>
   <!-- Jquery Implementation -->
-  <script src="/jquery-3.7.1.min.js"></script>
-  <script src="/script.js"></script>
+  <script src="https://esdeguinio7.github.io/EsNovels1/jquery-3.7.1.min.js"></script>
+  <script src="https://esdeguinio7.github.io/EsNovels1/script.js"></script>
   <script>
    
    $(document).ready(function(){
@@ -82,7 +82,7 @@
     const id = getQueryParam("id");
     
     async function getNovelInfo(){
-       const response = await fetch('/data.json');
+       const response = await fetch('https://esdeguinio7.github.io/EsNovels1/data.json');
        if(!response.ok){
           throw new Error('Failed to fetch information or data not found');
        }
