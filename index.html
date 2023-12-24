@@ -2,46 +2,62 @@
 <html>
 
 <head>
-  <meta name="viewport" content="width = device-width, initial-scale = 1">
-  <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <title>EsNovels</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
+   <meta name="viewport" content="width = device-width, initial-scale = 1">
+   <meta charset="UTF-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <title>EsNovels</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <input type="checkbox" id="check">
-  <header>
-    <label for="check">
-      <i class="fas fa-bars" id="bars"></i>
-    </label>
-    <i class="fa-solid fa-magnifying-glass" id="search"></i>
-    <input type="text" placeholder="Search..">
-  </header>
-  <nav>
-    <ul>
-      <li><a href="">Home</a></li>
-      <li><a href="">Light Novels</a></li>
-      <li><a href="">Web Novels</a></li>
-      <li><a href="">Korean Novels</a></li>
-      <li><a href="">Contact</a></li>
-      <li><a href="">Support</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-    <div id="new">
-      <p>New</p>
-    </div>
-    <div id="new-container"></div>
-    <footer>
-      <div class="footer">©Copyrighted EsNovels</div>
-    </footer>
-  </div>
-  <!-- Jquery Implementation -->
-  <script src="jquery-3.7.1.min.js"></script>
-  <script src="main.js"></script>
+
+   <header>
+      <label for="bars">
+         <i class="fas fa-bars" id="bars"></i>
+      </label>
+      <label for="webtitle">
+         <h3>EsNovels</h3>
+      </label>
+      <label for="search-icon">
+         <i class="fa-solid fa-magnifying-glass"></i>
+      </label>
+   </header>
+   <nav id="navbar">
+      <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">Light Novels</a></li>
+         <li><a href="">Web Novels</a></li>
+         <li><a href="">Korean Novels</a></li>
+         <li><a href="">Contact</a></li>
+         <li><a href="">Support</a></li>
+      </ul>
+   </nav>
+   <div class="search-container">
+      <input type="search" id="search" placeholder="Search Novel"/>
+   </div>
+   <div class="container">
+      <div id="new">
+         <p>New</p>
+      </div>
+      <div id="new-container"></div>
+      <footer>
+         <div class="footer">©Copyrighted EsNovels</div>
+      </footer>
+   </div>
+   <!-- Jquery Implementation -->
+   <script src="jquery-3.7.1.min.js"></script>
+   <script src="main.js"></script>
+   <script src="script.js"></script>
+   <script>
+      $(document).ready(function() {
+         
+         $('#new-container').on('click', '.new1', function() {
+            window.location.href = '/page/page-info.html?id=' + $(this).index();
+         });
+      });
+   </script>
 </body>
 
 </html>
