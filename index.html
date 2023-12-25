@@ -59,7 +59,10 @@
    <script src="script.js"></script>
    <script>
       $(document).ready(function() {
-
+        $('#search-btn').click(function(){
+          $('#webtitle').toggle(500);
+          $('.search-container').toggle(500);
+        });
          $('#new-container').on('click', '.new1', function() {
             window.location.href = 'page/page-info.html?id=' + $(this).index();
          });
