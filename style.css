@@ -190,7 +190,6 @@ nav ul li a {
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
 }
-
 .item-info {
   max-width: 100%;
   height: 100%;
@@ -214,6 +213,14 @@ nav ul li a {
 }
 .new1:nth-child(n+11) {
    display: none;
+}
+@media screen and (min-width: 700px){
+  .new1 img{
+    height: 195px;
+  }
+  .new1:nth-child(n+21) {
+   display: none;
+}
 }
 footer {
   max-width: 100%;
