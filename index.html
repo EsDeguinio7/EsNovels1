@@ -14,29 +14,30 @@
 <body>
 
    <header>
-      <label for="bars">
+      <label for="bars" id="labelBars">
          <i class="fas fa-bars" id="bars"></i>
       </label>
-      <label for="webtitle">
+      <nav id="navbar">
+         <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Light Novels</a></li>
+            <li><a href="">Web Novels</a></li>
+            <li><a href="">Korean Novels</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Support</a></li>
+         </ul>
+      </nav>
+      <label for="webtitle" id="webtitle">
          <h3>EsNovels</h3>
       </label>
-      <label for="search-icon">
+      <label class="search-container">
+         <input type="search" id="search" placeholder="Search Novel" />
+      </label>
+      <label for="search-icon" id="search-btn">
          <i class="fa-solid fa-magnifying-glass"></i>
       </label>
    </header>
-   <nav id="navbar">
-      <ul>
-         <li><a href="">Home</a></li>
-         <li><a href="">Light Novels</a></li>
-         <li><a href="">Web Novels</a></li>
-         <li><a href="">Korean Novels</a></li>
-         <li><a href="">Contact</a></li>
-         <li><a href="">Support</a></li>
-      </ul>
-   </nav>
-   <div class="search-container">
-      <input type="search" id="search" placeholder="Search Novel" />
-   </div>
+
    <div class="container">
       <div class="fav">
          <div id="new">
