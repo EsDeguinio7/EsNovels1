@@ -35,9 +35,15 @@
       </ul>
    </nav>
    <div class="search-container">
-      <input type="search" id="search" placeholder="Search Novel"/>
+      <input type="search" id="search" placeholder="Search Novel" />
    </div>
    <div class="container">
+      <div class="fav">
+         <div id="new">
+            <p>Your Favorites</p>
+         </div>
+         <ul id="myFavList"></ul>
+      </div>
       <div id="new">
          <p>New</p>
       </div>
@@ -52,10 +58,32 @@
    <script src="script.js"></script>
    <script>
       $(document).ready(function() {
-         
+
          $('#new-container').on('click', '.new1', function() {
-            window.location.href = 'https://esdeguinio7.github.io/EsNovels1/page/page-info.html?id=' + $(this).index();
+            window.location.href = 'page/page-info.html?id=' + $(this).index();
          });
+         
+         const storeFav = localStorage.getItem("myFav");
+         if (storeFav) {
+            let data = JSON.parse(storeFav);
+            fetch(data)
+            .then(response => {
+               if(!response.ok){
+                  throw new Error('Failed to retrieve recent visited novel');
+               }
+               return response.json();
+            }).then(data => {
+              console.log(data.title);
+               const items = "<div class='new1'><img src='" + data.cover + "' alt='Cover' loading='lazy'/><h3 id='title'>" + data.title + "</h3><div class='item-info'><span>" + data.type + "</span></div></div>";
+               
+               $('#myFavList').append(items);
+            }).catch(error => {
+               console.log(error);
+            })
+         }else{
+            $('.fav').hide();
+         }
+
       });
    </script>
 </body>

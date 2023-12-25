@@ -19,11 +19,12 @@ $(document).ready(function() {
    // Get novels on response
    getNovels()
       .then(data => {
-
+         
          const dataResponse = data.data;
-
+         
          dataResponse.forEach((items) => {
-
+            
+            
             const itemsDisplay = "<div class='new1'><img src='" + items.cover + "' alt='Cover' loading='lazy'/><h3 id='title'>" + items.title + "</h3><div class='item-info'><span>" + items.type + "</span></div></div>";
             newNovelContainer.append(itemsDisplay);
 

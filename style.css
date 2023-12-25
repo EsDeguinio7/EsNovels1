@@ -50,7 +50,7 @@ nav {
   width: 140px;
   height: auto;
   left: -150px;
-  background-color: rgba(232, 232, 232, 0.9);
+  background-color: #12131F;
   overflow: hidden;
   border-top: 1px solid grey;
   position: absolute;
@@ -71,7 +71,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: var(--default-color);
   font-family: var(--poppins-font);
 }
 .search-container{
@@ -112,8 +112,14 @@ nav ul li a {
   font-size: 20pt;
 
 }
-
-#new-container {
+#myFavList{
+   margin: 10px 0 10px 0;
+   max-width: 100%;
+   margin-bottom: 10px;
+   height: auto;
+   display: flex;
+}
+#new-container{
   margin: 10px 0 10px 0;
   max-width: 100%;
   margin-bottom: 10px;
@@ -123,7 +129,7 @@ nav ul li a {
   gap: 10px;
 }
 
-.new1 {
+.new1, #myFavList > li{
   min-width: 130px;
   height: auto;
   position: relative;
@@ -131,17 +137,17 @@ nav ul li a {
   padding: 8px;
   overflow: hidden;
 }
-.new1:active {
+.new1:active, #myFavList > li:active{
   background: #B3CEFF;
 }
 
-.new1 img {
+.new1 img , #myFavList > li img{
   width: 100%;
   height: 230px;
   border-radius: 4px;
 }
 
-.new1 #title {
+.new1 #title, #myFavList > li h3{
   width: 100%;
   font-size: 10pt;
   font-family: var(--poppins-font);
@@ -208,6 +214,22 @@ footer {
    text-align: center;
    font-size: 15pt;
    font-family: var(--poppins-font);
+}
+#addToFav{
+   width: auto;
+   height: auto;
+   padding: 7px 13px;
+   border: none;
+   border-radius: 50px;
+   font-size: 11pt;
+   background: #CD014C;
+   color: var(--default-color);
+   font-family: var(--poppins-font);
+   font-weight: 700;
+   margin: 10px 0;
+}
+#addToFav:active{
+   background: #6A9BE6;
 }
 .information, .volumes-container{
    max-width: 100%;
