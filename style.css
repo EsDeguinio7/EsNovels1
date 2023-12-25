@@ -53,6 +53,7 @@ nav {
   width: 140px;
   height: auto;
   left: -150px;
+  top: 55px;
   background-color: #12131F;
   overflow: hidden;
   border-top: 1px solid grey;
@@ -100,7 +101,38 @@ nav ul li a {
   padding: 15px;
   margin-bottom: 20px;
 }
-
+@media screen and (min-width: 700px){
+  label{
+    width: auto;
+  }
+  #search-btn, #labelBars{
+    display: none;
+  }
+  nav{
+    width: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: none;
+    border: none;
+    margin-right: 10px;
+  }
+  nav ul{
+    display: flex;
+    justify-content: flex-start;
+  }
+  nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-container{
+    display: block;
+  }
+  #webtitle{
+    display: block;
+  }
+}
 #new {
   text-align: center;
   width: 50px;
