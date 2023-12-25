@@ -46,6 +46,9 @@ label h3{
    font-weight: 700;
    font-family: var(--Dhurjati-font);
 }
+#webtitle{
+  display: block;
+}
 nav {
   width: 140px;
   height: auto;
@@ -75,12 +78,10 @@ nav ul li a {
   font-family: var(--poppins-font);
 }
 .search-container{
-   width: 100%;
+   max-width: 250px;
    height: auto;
    padding: 20px 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+   display: none;
 }
 #search{
    width: inherit;
