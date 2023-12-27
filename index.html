@@ -1,95 +1,100 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-   <meta name="viewport" content="width = device-width, initial-scale = 1">
-   <meta charset="UTF-8">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <title>EsNovels</title>
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-
-   <header>
-      <label for="bars" id="labelBars">
-         <i class="fas fa-bars" id="bars"></i>
-      </label>
-      <nav id="navbar">
-         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Light Novels</a></li>
-            <li><a href="">Web Novels</a></li>
-            <li><a href="">Korean Novels</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Support</a></li>
-         </ul>
-      </nav>
-      <label for="webtitle" id="webtitle">
-         <h3>EsNovels</h3>
-      </label>
-      <label class="search-container">
-         <input type="search" id="search" placeholder="Search Novel" />
-      </label>
-      <label for="search-icon" id="search-btn">
-         <i class="fa-solid fa-magnifying-glass"></i>
-      </label>
-   </header>
-
-   <div class="container">
-      <!-- <div class="fav">
-         <div id="new">
-            <p>Your Favorites</p>
-         </div>
-         <ul id="myFavList"></ul>
-      </div> -->
-      <div id="new">
-         <p>New</p>
-      </div>
-      <div id="new-container"></div>
-      <footer>
-         <div class="footer">©Copyrighted EsNovels</div>
-      </footer>
-   </div>
-   <!-- Jquery Implementation -->
-   <script src="jquery-3.7.1.min.js"></script>
-   <script src="main.js"></script>
-   <script src="script.js"></script>
-   <script>
-      $(document).ready(function() {
-        $('#search-btn').click(function(){
-          $('#webtitle').toggle(500);
-          $('.search-container').toggle(500);
-        });
-         $('#new-container').on('click', '.new1', function() {
-            window.location.href = 'page/page-info.html?id=' + $(this).index();
-         });
-         
-         /*const storeFav = localStorage.getItem("myFav");
-         if (storeFav) {
-            let data = JSON.parse(storeFav);
-            fetch(data)
-            .then(response => {
-               if(!response.ok){
-                  throw new Error('Failed to retrieve recent visited novel');
-               }
-               return response.json();
-            }).then(data => {
-              console.log(data.title);
-               const items = "<div class='new1'><img src='" + data.cover + "' alt='Cover' loading='lazy'/><h3 id='title'>" + data.title + "</h3><div class='item-info'><span>" + data.type + "</span></div></div>";
-               
-               $('#myFavList').append(items);
-            }).catch(error => {
-               console.log(error);
-            })
-         }else{
-            $('.fav').hide();
-         }*/
-
-      });
-   </script>
-</body>
-
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap" rel="stylesheet">
+        <title>EsNovels</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="Images/es.gif">
+        <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dhurjati&family=Josefin+Sans&display=swap');
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" id="check">
+        <header>
+            <label for="check">
+                <i class="fas fa-bars" id="bars"></i>
+            </label>
+            <h2><a href="index.html">EsNovels</a></h2>
+                <!-- <img id="icon" src="Images/moon.png"/> -->
+                <input type="text" placeholder="Search..">       
+                <div id="header-menu">
+                  <ul>
+                    <li><a href="">Light Novels</a></li>
+                    <li><a href="">Web Novels</a></li>
+                    <li><a href="">Korean Novels</a></li>
+                  </ul>
+                  </div>
+        </header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Light Novels</a></li>
+                <li><a href="">Web Novels</a></li>
+                <li><a href="">Korean Novels</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </nav>
+        <div id="new">
+            <h3>New</h3>
+        </div>
+          <div id="new-container">
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+               <!-- Pwede pa add yung katulad na design mo nung una na nakalagay yung type na novel sa taas ng cover -->
+            </div>
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+            </div>
+          </div>
+          <div id="Recommend">
+            <h3>Recommend</h3>
+        </div>
+          <div id="recommend-container">
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+            </div>
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+            </div>
+          </div>
+          <div id="Favourite">
+            <h3>Favourites</h3>
+        </div>
+          <div id="favourite-container">
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+            </div>
+            <div class="content">
+              <img class="content-image" src="Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+              <h5 class="content-title">Nekonoyama Neneko Becomes a Neko</h5>
+            </div>
+          </div>
+        <script src="jquery-3.7.1.min.js"></script>
+       <script src="script.js"></script>
+       <!-- <script> 
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                var element = document.body;
+                element.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                   icon.src = "Images/sun.png";
+                }else{
+                   icon.src = "Images/moon.png";
+            } 
+            });
+        });        
+    </script> -->
+    </body>
 </html>
