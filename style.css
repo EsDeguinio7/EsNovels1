@@ -226,6 +226,11 @@ nav ul li a {
     text-overflow: ellipsis; 
 }
 
+.content-title a {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
 /* Page Styling */
 
 .page-info-container {
