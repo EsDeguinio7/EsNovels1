@@ -1,143 +1,106 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap" rel="stylesheet">
+        <title>EsNovels</title>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="icon" href="../Images/es.gif">
+        <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Dhurjati&family=Josefin+Sans&display=swap');
+        </style>
+    </head>
+    <body>
+        <input type="checkbox" id="check">
+        <header>
+            <label for="check">
+                <i class="fas fa-bars" id="bars"></i>
+            </label>
+            <h2><a href="index.html">EsNovels</a></h2>
+            <div id="header-menu">
+                <ul>
+                  <li><a href="">Light Novels</a></li>
+                  <li><a href="">Web Novels</a></li>
+                  <li><a href="">Korean Novels</a></li>
+                </ul>
+                </div>
+                <!-- <img id="icon" src="../Images/moon.png"/> -->
+        </header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Light Novels</a></li>
+                <li><a href="">Web Novels</a></li>
+                <li><a href="">Korean Novels</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </nav>
+        <div class="page-info-container">
+            <div class="page-info">
+            <h5 id="back-btn"><a href="">Light Novel</a>/</h5>
+            <h3 class="page-title">Nekonoyama Neneko Becomes a Neko</h3>
+            <img class="page-img" src="../Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+            <h4 class="page-sections">Alternative Title</h4>
+            <p class="sections-info">猫ノ山寧々子はネコになる
+            </p>
+            <h4 class="page-sections">Status</h4>
+            <p class="sections-info">Completed</p>
+            <h4 class="page-sections">Type</h4>
+            <p class="sections-info">Light Novel</p>
+            <h4 class="page-sections">Genre</h4>
+            <p class="sections-info">Ecchi, Mature, Fantasy, Romance, Yuri</p>
+            <h4 class="page-sections">Author(s)</h4>
+            <p class="sections-info">Hinohara</p>
+            <h4 class="page-sections">Artist(s)</h4>
+            <p class="sections-info">Mato</p>
+            <h4 class="page-sections">Volume(s)</h4>
+            <p class="sections-info">1</p>
+            <h4 class="page-sections">English Publisher</h4>
+            <p class="sections-info">N/A</p>
+            <h4 class="page-sections">Fan Tls</h4>
+            <p class="sections-info">GlueGourmandizer</p>
+            <h4 class="page-sections">Description/Sypnosis</h4>
+            <p class="sections-info">“Is it wrong for a girl to want to become a prince?”
+                <br/><br/>
+                Nekonoyama Neneko is a demihuman in high school who can turn into a cat.
+                <br/><br/>
+                While hiding her true identity from the world, she is shy around everyone anyone except her family.
+                <br/><br/>
+                The only one she allows into her heart is her older sister’s friend, Mashiro.
+                <br/><br/>
+                Neneko lives while continuing to admire the cool and mysterious Mashiro.
+                <br/><br/>
+                One day, Neneko discovers that Mashiro is a vampire and proposes living together as her blood donor (partner).
+                <br/><br/>
+                This is a romance between girls clumsy at love.
+                </p>
 
-<head>
-   <meta name="viewport" content="width = device-width, initial-scale = 1">
-   <meta charset="UTF-8">
-   <title></title>
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="stylesheet" type="text/css" href="/style.css">
-   <script src="https://kit.fontawesome.com/ee8945d5d6.js" crossorigin="anonymous"></script>
-</head>
+            <h4 class="page-sections" id="download">Download Links</h4>
+            <p class="sections-info">Volume 1: <a href="">Epub</a> &amp; <a href="">Pdf</a></p>
 
-<body>
-   <header>
-      <label for="bars">
-         <i class="fas fa-bars" id="bars"></i>
-      </label>
-      <label for="webtitle">
-         <h3>EsNovels</h3>
-      </label>
-      <label for="search-icon">
-         <i class="fa-solid fa-magnifying-glass"></i>
-      </label>
-   </header>
-   <nav id="navbar">
-      <ul>
-         <li><a href="">Home</a></li>
-         <li><a href="">Light Novels</a></li>
-         <li><a href="">Web Novels</a></li>
-         <li><a href="">Korean Novels</a></li>
-         <li><a href="">Contact</a></li>
-         <li><a href="">Support</a></li>
-      </ul>
-   </nav>
-   <div class="search-container">
-      <input type="search" id="search" placeholder="Search Novel" />
-   </div>
-   <div class="container">
-
-      <div cclass="info-page">
-
-         <div class="page-cover-container">
-
-            <img alt="Cover" id="cover" loading="lazy" />
-            <h3 id="title"></h3>
-            <button type="button" id="addToFav"><i class="fa-solid fa-heart"></i> Add To Favorite</button>
-         </div>
-
-         <div class="information">
-            <div class="info"><span>Type: </span><span id="type"></span></div>
-            <div class="info"><span>Genres: </span><span id="genres"></span></div>
-            <div class="info"><span>Synopsis </span><br /><span id="synopsis"></span></div>
-
-
-
-         </div>
-
-         <div class="volumes-container">
-            <h3>Download Volumes</h3>
-            <ul id="volumes"></ul>
-         </div>
-
-      </div>
-
-
-      <footer>
-         <div class="footer">©Copyrighted EsNovels</div>
-      </footer>
-   </div>
-   <!-- Jquery Implementation -->
-   <script src="https://esdeguinio7.github.io/EsNovels1/jquery-3.7.1.min.js"></script>
-   <script src="https://esdeguinio7.github.io/EsNovels1/script.js"></script>
-   <script>
-      $(document).ready(function() {
-
-         function getQueryParam(key) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(key);
-         }
-         const id = getQueryParam("id");
-
-         async function getNovelInfo() {
-            const response = await fetch('https://esdeguinio7.github.io/EsNovels1/data.json');
-            if (!response.ok) {
-               throw new Error('Failed to fetch information or data not found');
-            }
-            const data = await response.json();
-            return data;
-         }
-
-         getNovelInfo()
-            .then(data => {
-               const result = data.data;
-
-               const titlePage = "Download " + result[id].title + " " + result[id].type;
-               document.title = titlePage;
-
-               const pageTitle = result[id].title + " " + result[id].type;
-               const pageReplace = pageTitle.replaceAll(" ", "-");
-               const pageUrl = "<meta name=\"url\" content=\"https://esdeguinio7.github.io/EsNovels1/page/" + pageReplace + "\"/>";
-               $('head').append(pageUrl);
-
-               $('#cover').attr('src', result[id].cover);
-               $('#title').text(result[id].title);
-               $('#type').text(result[id].type);
-               $('#genres').text(result[id].genres);
-               $('#synopsis').html(result[id].synopsis);
-               const volumes = result[id].volumes;
-               volumes.forEach((vol) => {
-                  const param = "<li id='volume-position' data-src='" + vol.link + "' target='_blank'><p>" + vol.title + "</p></li>";
-                  $('#volumes').append(param);
-               });
-
-            })
-            .catch(error => console.log(error));
-
-         $('#addToFav').click(function() {
-
-            let values = {
-               "title": $('#title').text(),
-               "cover": $('#cover').attr('src'),
-               "type": $('#type').text(),
-               "genres": $('#genres').text(),
-               "synopsis": $('#synopsis').text(),
-               volumes: []
-            }
-
-
-            $('#volumes li').each(function(event) {
-               let valueList = $(this).text();
-               let valueSrc = $(this).attr('data-src');
-
-               let pushData = { "title": valueList, "link": valueSrc }
-               const contract = values.volumes;
-               contract.push(pushData);
+            <h4 class="page-sections">Notes</h4>
+            <p class="sections-info"></p>
+            </div>
+        </div>
+       <script src="../jquery-3.7.1.min.js"></script>
+       <script src="../script.js"></script>
+       <!-- <script> 
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                var element = document.body;
+                element.classList.toggle("dark-theme");
+                if(document.body.classList.contains("dark-theme")){
+                   icon.src = "../Images/sun.png";
+                }else{
+                   icon.src = "../Images/moon.png";
+            } 
             });
-            concontract(values);
-            localStorage.setItem('myFav', JSON.stringify(values));
-         });
-      });
-   </script>
-</body>
+        });        
+    </script> -->
+    </body>
+</html>    
