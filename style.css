@@ -275,8 +275,8 @@ nav ul li a {
     padding: 10px 10px;
     width: 350px;
     height: auto;
-    border-radius: 10px;
-    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--third-color);
 }
 
 .page-title {
@@ -287,7 +287,7 @@ nav ul li a {
 .page-img {
     width: 250px;
     height: 350px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #D3D3D3;
 }
 
@@ -319,6 +319,59 @@ nav ul li a {
 #download {
     margin-bottom: 20px;
 }
+
+/* List Styling */
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.list {
+    padding: 10px 10px;
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--third-color);
+}
+
+.list h3 {
+    text-align: center;
+    color: red;
+}
+
+.list ul {
+    list-style: square;
+}
+
+.list ul li {
+    margin: 10px 0 10px 15px;
+}
+
+.list ul li a {
+    color: var(--third-color);
+    text-decoration: none;
+}
+
+.list ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: red;
+    transition: all 1s ease;
+}
+
+.list ul li a:visited {
+    color: #454545;
+}
+
+.title-style {
+    width: 140px;
+    border-bottom: 2px solid red;
+    margin: 20px 0 30px 95px;
+}
+
 #page-loader{
    max-width: 100%;
    min-height: auto;
@@ -376,6 +429,18 @@ nav ul li a {
         width: 300px;
         height: 400px;
     }
+
+    .list {
+        width: 400px;
+    }
+
+    .title-style {
+        margin-left: 120px;
+    }
+
+    .list ul li {
+        margin-left: 20px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -419,5 +484,17 @@ nav ul li a {
 
     #favourite-container {
         grid-template-columns: auto auto auto auto auto auto auto auto;
+    }
+
+    .list {
+        width: 500px;
+    }
+
+    .title-style {
+        margin-left: 170px;
+    }
+
+    .list ul li {
+        margin-left: 20px;
     }
 }
