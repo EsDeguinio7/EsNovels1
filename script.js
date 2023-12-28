@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function(){
      }
   });
    
-   $('#new-container').on('click','.content', function(){
+  $('#new-container').on('click','.content', function(){
       
       
-      window.location.href = "page/page-info.html?id="+$(this).index();
-   });
+      window.location.href = $(this).attr('data-src');
+   })
    
 });
