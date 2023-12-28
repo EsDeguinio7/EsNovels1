@@ -55,7 +55,46 @@
         </div>
        <script src="../jquery-3.7.1.min.js"></script>
        <script src="../script.js"></script>
-       <script src="../main.js"></script>
+       <script>
+         $(document).ready(function () {
+    async function getNovels() {
+        // Get json response
+        const response = await fetch("https://esdeguinio7.github.io/EsNovels1/data.json");
+
+        // Check response if OK
+        if (!response.ok) {
+          
+          $('.loader2').hide();
+            throw new Error("Failed to fetch data. Please try again!");
+        }
+
+        const data = await response.json();
+        return data;
+    }
+
+    // Get novels on response
+    getNovels()
+        .then(data => {
+            const dataResponse = data;
+            
+            
+            $('.loader2').hide();
+            dataResponse.forEach(items => {
+            	
+            	const listItems = "<li><a href='../page/page-info.html?id="+items.id+"'>"+items.title+"</a></li>";
+                $('#listnovels').append(listItems);
+                
+			});
+            
+        })
+        .catch(error => {
+            const errorDisplay = "<li class='errorCon'>" + error + "</li>";
+            $("#listnovelsr").append(errorDisplay);
+            
+        });
+});
+
+       </script>
        <script>
          function sortListAlphabetically() {
   var $list = $('#listnovels');
