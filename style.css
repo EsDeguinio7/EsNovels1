@@ -16,13 +16,7 @@ body {
     --third-color: black;
     --fourth-color: rgba(232, 232, 232, 0.9);
 }
-/* D maganda colors sa dark theme */
-/* .dark-theme {
-    --primary-color: black;
-    --secondary-color: black;
-    --third-color: white;
-    --fourth-color: rgb(29, 28, 28);
-} */
+/* D na mag dark mode */
 
 header {
     background-color: var(--secondary-color);
@@ -91,6 +85,13 @@ input[type=text], select {
     margin: 18px 0 0 15px;
 }
 
+#search {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px 15px 0 0;
+}
+
 h2 {
     display: none;
 }
@@ -126,7 +127,7 @@ h2 a:hover {
     left: -150px;
     background-color: var(--secondary-color);
     overflow: hidden;
-    border-top: 1px solid var(--third-color);
+    border-top: 1px solid #D3D3D3;
     position: absolute;
     z-index: 2;
     transition: left 1s ease;
@@ -217,7 +218,7 @@ nav ul li a {
     width: 140px;
     height: 180px;
     border-radius: 5px;
-    border:1px solid var(--third-color);
+    border: 1px solid #D3D3D3;
 }
 
 .content-title {
@@ -274,10 +275,8 @@ nav ul li a {
     padding: 10px 10px;
     width: 350px;
     height: auto;
-    border: 1px solid var(--third-color);
-    border-radius: 5px;
-    /* background-color: var(--primary-color); */
-    box-shadow: 5px 5px 10px var(--third-color);
+    border-radius: 10px;
+    border: 1px solid #D3D3D3;
 }
 
 .page-title {
@@ -288,8 +287,8 @@ nav ul li a {
 .page-img {
     width: 250px;
     height: 350px;
-    border-radius: 5px;
-    border: 1px solid var(--third-color);
+    border-radius: 10px;
+    border: 1px solid #D3D3D3;
 }
 
 .page-sections {
@@ -322,12 +321,6 @@ nav ul li a {
 }
 
 @media only screen and (min-width: 768px) {
-    h2 {
-        display: block;
-        float: left;
-        margin: 18px 0 0 110px;
-    }
-
     #new-container {
         grid-template-columns: auto auto auto auto;
     }
@@ -356,9 +349,11 @@ nav ul li a {
     }
 
     h2 {
-        margin-left: 40px;
+        display: block;
+        float: left;
+        margin: 18px 0 0 110px;
     }
-
+    
     #header-menu {
         display: block;
     }
@@ -390,13 +385,4 @@ nav ul li a {
     #favourite-container {
         grid-template-columns: auto auto auto auto auto auto auto auto;
     }
-
-    /* .page-info {
-        width: 600px;
-    }
-
-    .page-img {
-        width: 400px;
-        height: 500px;
-    } */
 }
