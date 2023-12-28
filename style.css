@@ -223,9 +223,12 @@ nav ul li a {
 
 .content-title {
     color: var(--third-color); 
-    height: 30px; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
+    height: auto; 
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
 }
 
 .content-title a {
