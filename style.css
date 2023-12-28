@@ -281,7 +281,7 @@ nav ul li a {
 
 .page-title {
     height: auto;
-    margin-bottom: 10px;
+    margin: 30px 0;
 }
 
 .page-img {
@@ -304,16 +304,6 @@ nav ul li a {
 
 .sections-info a {
     color: red;
-}
-
-#back-btn {
-    text-align: left;
-    margin: 0 0 20px 5px;
-}
-
-#back-btn a {
-    color: red;
-    text-decoration: none;
 }
 
 #download {
