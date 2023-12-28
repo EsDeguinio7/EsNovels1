@@ -84,6 +84,14 @@ $(document).ready(function () {
                     "<div class='errorCon'>No data found!</div>";
                 $("#favourite-container").append(errorDisplay);
             }
+            
+            dataResponse.forEach(items => {
+            	
+            	const items = "<li><a href='page/page-info.html?id="+items.id+"'>"+items.title+"</a></li>";
+                $('#listnovels').append(items);
+                
+			});
+            
         })
         .catch(error => {
             const errorDisplay = "<div class='errorCon'>" + error + "</div>";
