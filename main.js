@@ -5,6 +5,7 @@ $(document).ready(function () {
 
         // Check response if OK
         if (!response.ok) {
+          $('.loader1').hide();
             throw new Error("Failed to fetch data. Please try again!");
         }
 
@@ -16,7 +17,7 @@ $(document).ready(function () {
     getNovels()
         .then(data => {
             const dataResponse = data;
-
+            $('.loader1').hide();
             let updateData = dataResponse.filter(
                 item => item.newUpdate === "yes"
             );
