@@ -6,6 +6,7 @@ $(document).ready(function () {
         // Check response if OK
         if (!response.ok) {
           $('.loader1').hide();
+          $('.loader2').hide();
             throw new Error("Failed to fetch data. Please try again!");
         }
 
@@ -85,6 +86,7 @@ $(document).ready(function () {
                 $("#favourite-container").append(errorDisplay);
             }
             
+            $('.loader2').hide();
             dataResponse.forEach(items => {
             	
             	const listItems = "<li><a href='page/page-info.html?id="+items.id+"'>"+items.title+"</a></li>";
