@@ -31,29 +31,31 @@
                 <i class="fas fa-bars" id="bars"></i>
             </label>
             <h2><a href="index.html">EsNovels</a></h2>
-            <div id="header-menu">
-                <ul>
-                    <li><a href="">Light Novels</a></li>
-                    <li><a href="">Web Novels</a></li>
-                    <li><a href="">Korean Novels</a></li>
-                </ul>
-            </div>
-            <!-- <img id="icon" src="../Images/moon.png"/> -->
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                <input type="text" placeholder="Search..">       
+                <div id="header-menu">
+                  <ul>
+                    <li><a href="List/Light-Novels.html">Light Novels</a></li>
+                    <li><a href="List/Web-Novels.html">Web Novels</a></li>
+                    <li><a href="List/Korean-Novels.html">Korean Novels</a></li>
+                    <li><a href="https://web.facebook.com/profile.php?id=100085285262654">Contact</a></li>
+                  </ul>
+                  </div>
         </header>
         <nav id="navbar">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Light Novels</a></li>
-                <li><a href="">Web Novels</a></li>
-                <li><a href="">Korean Novels</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Support</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../List/Light-Novels.html">Light Novels</a></li>
+                <li><a href="../List/Web-Novels.html">Web Novels</a></li>
+                <li><a href="../List/Korean-Novels.html">Korean Novels</a></li>
+                <li><a href="https://web.facebook.com/profile.php?id=100085285262654">Contact</a></li>
+                <li><a href="https://ko-fi.com/esnovels">Support</a></li>
             </ul>
         </nav>
         <div class="page-info-container">
             <div class="page-info">
               <div class="loader loader1" id="page-loader"></div>
-                <h5 id="back-btn"><a href="">Light Novel</a>/</h5>
+                <h5 id="back-btn"><a href="../List/Light-Novels.html">Light Novel</a>/</h5>
                 <h3 class="page-title" id="title"></h3>
                 <img class="page-img" src="" loading="lazy" id="cover" />
                 <h4 class="page-sections">Alternative Title</h4>
@@ -86,19 +88,6 @@
         </div>
         <script src="../jquery-3.7.1.min.js"></script>
         <script src="../script.js"></script>
-        <!-- <script> 
-        $(document).ready(function(){
-            $('#icon').click(function(){
-                var element = document.body;
-                element.classList.toggle("dark-theme");
-                if(document.body.classList.contains("dark-theme")){
-                   icon.src = "../Images/sun.png";
-                }else{
-                   icon.src = "../Images/moon.png";
-            } 
-            });
-        });        
-    </script> -->
         <script>
             $(document).ready(function () {
                 function getQueryParam(key) {
