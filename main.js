@@ -87,8 +87,8 @@ $(document).ready(function () {
             
             dataResponse.forEach(items => {
             	
-            	const items = "<li><a href='page/page-info.html?id="+items.id+"'>"+items.title+"</a></li>";
-                $('#listnovels').append(items);
+            	const listItems = "<li><a href='page/page-info.html?id="+items.id+"'>"+items.title+"</a></li>";
+                $('#listnovels').append(listItems);
                 
 			});
             
