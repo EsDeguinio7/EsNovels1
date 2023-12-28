@@ -1,7 +1,7 @@
 $(document).ready(function () {
     async function getNovels() {
         // Get json response
-        const response = await fetch("../data.json");
+        const response = await fetch("data.json");
 
         // Check response if OK
         if (!response.ok) {
