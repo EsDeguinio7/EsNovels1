@@ -12,6 +12,16 @@ document.addEventListener('DOMContentLoaded', function(){
       
       
       window.location.href = $(this).attr('data-src');
-   })
+   });
+  $('#recommend-container').on('click','.content', function(){
+      
+      
+      window.location.href = $(this).attr('data-src');
+   });
+  $('#favourite-container').on('click','.content', function(){
+      
+      
+      window.location.href = $(this).attr('data-src');
+   });
    
 });
