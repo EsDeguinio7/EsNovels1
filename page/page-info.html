@@ -52,6 +52,7 @@
         </nav>
         <div class="page-info-container">
             <div class="page-info">
+              <div class="loader loader1" id="page-loader"></div>
                 <h5 id="back-btn"><a href="">Light Novel</a>/</h5>
                 <h3 class="page-title" id="title"></h3>
                 <img class="page-img" src="" loading="lazy" id="cover" />
@@ -111,13 +112,14 @@
                 fetch("../data.json")
                     .then(response => {
                         if (!response.ok) {
+                          $('.loader1').hide();
                             throw new Error("Failed to fetch data.");
                         }
                         return response.json();
                     })
                     .then(data => {
                         const dataResponse = data;
-
+                        $('.loader1').hide();
                         let novel = dataResponse.find(
                             item => item.id === novelId
                         );
