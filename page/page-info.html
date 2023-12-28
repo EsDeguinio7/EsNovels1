@@ -43,48 +43,38 @@
         <div class="page-info-container">
             <div class="page-info">
             <h5 id="back-btn"><a href="">Light Novel</a>/</h5>
-            <h3 class="page-title">Nekonoyama Neneko Becomes a Neko</h3>
-            <img class="page-img" src="../Images/Nekonoyama Neneko Becomes a Neko.jpeg"/>
+            <h3 class="page-title" id="title"></h3>
+            <img class="page-img" src="" loading="lazy" id="cover"/>
             <h4 class="page-sections">Alternative Title</h4>
-            <p class="sections-info">猫ノ山寧々子はネコになる
+            <p class="sections-info" id="alternative">
             </p>
             <h4 class="page-sections">Status</h4>
-            <p class="sections-info">Completed</p>
+            <p class="sections-info" id="status"></p>
             <h4 class="page-sections">Type</h4>
-            <p class="sections-info">Light Novel</p>
+            <p class="sections-info" id="type"></p>
             <h4 class="page-sections">Genre</h4>
-            <p class="sections-info">Ecchi, Mature, Fantasy, Romance, Yuri</p>
+            <p class="sections-info" id="genre"></p>
             <h4 class="page-sections">Author(s)</h4>
-            <p class="sections-info">Hinohara</p>
+            <p class="sections-info" id="authors"></p>
             <h4 class="page-sections">Artist(s)</h4>
-            <p class="sections-info">Mato</p>
+            <p class="sections-info" id="artist"></p>
             <h4 class="page-sections">Volume(s)</h4>
-            <p class="sections-info">1</p>
+            <p class="sections-info" id="volumeCount"></p>
             <h4 class="page-sections">English Publisher</h4>
-            <p class="sections-info">N/A</p>
+            <p class="sections-info" id="publisher"></p>
             <h4 class="page-sections">Fan Tls</h4>
-            <p class="sections-info">GlueGourmandizer</p>
+            <p class="sections-info" id="translationGroup"></p>
             <h4 class="page-sections">Description/Sypnosis</h4>
-            <p class="sections-info">“Is it wrong for a girl to want to become a prince?”
-                <br/><br/>
-                Nekonoyama Neneko is a demihuman in high school who can turn into a cat.
-                <br/><br/>
-                While hiding her true identity from the world, she is shy around everyone anyone except her family.
-                <br/><br/>
-                The only one she allows into her heart is her older sister’s friend, Mashiro.
-                <br/><br/>
-                Neneko lives while continuing to admire the cool and mysterious Mashiro.
-                <br/><br/>
-                One day, Neneko discovers that Mashiro is a vampire and proposes living together as her blood donor (partner).
-                <br/><br/>
-                This is a romance between girls clumsy at love.
+            <p class="sections-info" id="synopsis">
                 </p>
 
             <h4 class="page-sections" id="download">Download Links</h4>
-            <p class="sections-info">Volume 1: <a href="">Epub</a> &amp; <a href="">Pdf</a></p>
+            <div class="volumeCon">
+               
+            </div>
 
             <h4 class="page-sections">Notes</h4>
-            <p class="sections-info"></p>
+            <p class="sections-info" id="notes"></p>
             </div>
         </div>
        <script src="../jquery-3.7.1.min.js"></script>
@@ -102,5 +92,48 @@
             });
         });        
     </script> -->
+    <script>
+       $(document).ready(function(){
+          function getQueryParam(key) {
+             const urlParams = new URLSearchParams(window.location.search);
+             return urlParams.get(key);
+          }
+          const novelId = getQueryParam("id");
+          fetch('../data.json')
+          .then(response =>{
+             if(!response.ok){
+                throw new Error('Failed to fetch data.');
+             }
+             return response.json();
+          })
+          .then(data => {
+             
+             $('#title').text(data[novelId].title);
+             $('#cover').attr('src', data[novelId].cover);
+             $('#status').text(data[novelId].status);
+             $('#type').text(data[novelId].type);
+             $('#alternative').text(data[novelId].alternative);
+             $('#genre').text(data[novelId].genre);
+             $('#authors').text(data[novelId].authors);
+             $('#artist').text(data[novelId].artist);
+             $('#publisher').text(data[novelId].publisher);
+             $('#volumeCount').text(data[novelId].volumesCount);
+             $('#translationGroup').text(data[novelId].translationGroup);
+             $('#synopsis').html(data[novelId].synopsis);
+             $('#notes').html(data[novelId].notes);
+             
+             const volData = data[novelId].volumes;
+             
+             volData.forEach(vol => {
+                const volume = "<p class='sections-info' id='vol'>"+vol.title+": <a href='"+vol.link1+"'>Epub</a> &amp; <a href='"+vol.link2+"'>Pdf</a></p>";
+                $('.volumeCon').append(volume);
+             })
+             
+          })
+          .catch(error => {
+             console.log(error)
+          });
+       });
+    </script>
     </body>
 </html>    

@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-   const newNovelContainer = $('#new-container');
-
    async function getNovels() {
       // Get json response
       const response = await fetch('data.json');
@@ -19,20 +17,56 @@ $(document).ready(function() {
    // Get novels on response
    getNovels()
       .then(data => {
-         
-         const dataResponse = data.data;
-         
-         dataResponse.forEach((items) => {
-            
-            
-            const itemsDisplay = "<div class='new1'><img src='" + items.cover + "' alt='Cover' loading='lazy'/><h3 id='title'>" + items.title + "</h3><div class='item-info'><span>" + items.type + "</span></div></div>";
-            newNovelContainer.append(itemsDisplay);
 
-         });
+         const dataResponse = data;
+
+         let updateData = dataResponse.filter(item => item.newUpdate === "yes");
+         if (updateData.length > 0) {
+            updateData.forEach(item => {
+               const itemsDisplay = "<div class='content'><img class='content-image' src='" + item.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + item.title + "</a></h5><div class='topType'><span>" + item.type + "</span></div></div>";
+               $('#new-container').append(itemsDisplay);
+            });
+
+         } else {
+            const errorDisplay = "<div class='errorCon'>No data found!</div>";
+            $('#new-container').append(errorDisplay);
+
+         }
+
+         let recommend = dataResponse.filter(item => item.recommended === "yes");
+         if (recommend.length > 0) {
+            recommend.forEach(item => {
+               const itemsDisplay = "<div class='content'><img class='content-image' src='" + recommend.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + recommend.title + "</a></h5><div class='topType'><span>" + recommend.type + "</span></div></div>";
+               $('#recommend-container').append(itemsDisplay);
+            })
+
+         } else {
+            const errorDisplay = "<div class='errorCon'>No data found!</div>";
+            $('#recommend-container').append(errorDisplay);
+
+         }
+
+         let addToFav = dataResponse.find(item => item.addToFav === "yes");
+         if (addToFav.length > 0) {
+            addToFav.forEach(item => {
+               const itemsDisplay = "<div class='content'><img class='content-image' src='" + addToFav.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + addToFav.title + "</a></h5><div class='topType'><span>" + addToFav.type + "</span></div></div>";
+               $('#favourite-container').append(itemsDisplay);
+            })
+
+         } else {
+            const errorDisplay = "<div class='errorCon'>No data found!</div>";
+            $('#favourite-container').append(errorDisplay);
+
+         }
 
 
       })
-      .catch(error => console.log(error));
+      .catch(error => {
+         const errorDisplay = "<div class='errorCon'>" + error + "</div>";
+         $('#new-container').append(errorDisplay);
+         $('#recommend-container').append(errorDisplay);
+         $('#favourite-container').append(errorDisplay);
+      });
 
 
 });

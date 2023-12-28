@@ -210,6 +210,7 @@ nav ul li a {
     color: var(--third-color);
     text-align: center;
     margin: 10px;
+    position: relative;
 }
 
 .content-image {
@@ -230,7 +231,35 @@ nav ul li a {
     text-decoration: none;
     color: var(--third-color);
 }
-
+.topType{
+   min-width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   position: absolute;
+   padding: 2px 8px;
+   top: 0;
+   left: 0;
+   z-index: 0;
+}
+.topType span{
+   font-size: 6pt;
+   color: #fff;
+   padding: 5px;
+   width: auto;
+   height: auto;
+   background: #D8075C;
+   border-radius: 5px;
+}
+.errorCon{
+   max-width: 100%;
+   height: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
 /* Page Styling */
 
 .page-info-container {
