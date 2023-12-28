@@ -23,7 +23,8 @@ $(document).ready(function() {
          let updateData = dataResponse.filter(item => item.newUpdate === "yes");
          if (updateData.length > 0) {
             updateData.forEach(item => {
-               const itemsDisplay = "<div class='content'><img class='content-image' src='" + item.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + item.title + "</a></h5><div class='topType'><span>" + item.type + "</span></div></div>";
+               console.log(item.id)
+               const itemsDisplay = "<div class='content' data-src='page/page-info.html?id="+item.id+"'><img class='content-image' src='" + item.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'>" + item.title + "</h5><div class='topType'><span>" + item.type + "</span></div></div>";
                $('#new-container').append(itemsDisplay);
             });
 
@@ -36,7 +37,7 @@ $(document).ready(function() {
          let recommend = dataResponse.filter(item => item.recommended === "yes");
          if (recommend.length > 0) {
             recommend.forEach(item => {
-               const itemsDisplay = "<div class='content'><img class='content-image' src='" + recommend.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + recommend.title + "</a></h5><div class='topType'><span>" + recommend.type + "</span></div></div>";
+               const itemsDisplay = "<div class='content' data-src='page/page-info.html?id="+item.id+"'><img class='content-image' src='" + item.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'>" + item.title + "</h5><div class='topType'><span>" + item.type + "</span></div></div>";
                $('#recommend-container').append(itemsDisplay);
             })
 
@@ -46,10 +47,10 @@ $(document).ready(function() {
 
          }
 
-         let addToFav = dataResponse.find(item => item.addToFav === "yes");
-         if (addToFav.length > 0) {
-            addToFav.forEach(item => {
-               const itemsDisplay = "<div class='content'><img class='content-image' src='" + addToFav.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'><a href=''>" + addToFav.title + "</a></h5><div class='topType'><span>" + addToFav.type + "</span></div></div>";
+         let addTo = dataResponse.filter(item => item.addToFav === "yes");
+         if (addTo.length > 0) {
+            addTo.forEach(item => {
+               const itemsDisplay = "<div class='content' data-src='page/page-info.html?id="+item.id+"'><img class='content-image' src='" + item.cover + "' alt='Cover' loading='lazy'/><h5 id='title' class='content-title'>" + item.title + "</h5><div class='topType'><span>" + item.type + "</span></div></div>";
                $('#favourite-container').append(itemsDisplay);
             })
 
