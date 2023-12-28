@@ -56,5 +56,22 @@
        <script src="../jquery-3.7.1.min.js"></script>
        <script src="../script.js"></script>
        <script src="../main.js"></script>
+       <script>
+         function sortListAlphabetically() {
+  var $list = $('#listnovels');
+  var $listItems = $list.children('li');
+
+  $listItems.sort(function(a, b) {
+    var textA = $(a).text().toUpperCase();
+    var textB = $(b).text().toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+  });
+
+  $list.append($listItems);
+}
+
+// Call the sort function
+sortListAlphabetically();
+       </script>
     </body>
 </html>    
