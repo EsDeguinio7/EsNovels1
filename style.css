@@ -235,6 +235,9 @@ nav ul li a {
     text-decoration: none;
     color: var(--third-color);
 }
+.content:nth-child(n+9){
+  display: none;
+}
 .topType{
    min-width: 100%;
    height: 100%;
