@@ -287,7 +287,7 @@ nav ul li a {
 
 .page-title {
     height: auto;
-    margin: 30px 0;
+    margin: 20px 0 30px 0;
 }
 
 .page-img {
@@ -396,6 +396,21 @@ nav ul li a {
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
+
+footer {
+    max-width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    text-align: center;
+    height:120px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer h5 {
+    margin: 20px 0 15px 0;
+}
+
 @keyframes loading {
   from {
     transform: rotate(0turn);
@@ -436,6 +451,14 @@ nav ul li a {
 
     .list ul li {
         margin-left: 20px;
+    }
+
+    footer {
+        height: 110px;
+    }
+
+    footer h5 {
+        margin-bottom: 25px;
     }
 }
 
@@ -492,5 +515,9 @@ nav ul li a {
 
     .list ul li {
         margin-left: 20px;
+    }
+
+    footer {
+        height: 100px;
     }
 }
