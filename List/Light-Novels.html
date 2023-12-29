@@ -134,7 +134,7 @@
                     });
             });
         </script>
-        <script>
+        <!-- <script>
             function sortListAlphabetically() {
                 var $list = $("#listnovels");
                 var $listItems = $list.children("li");
@@ -150,6 +150,21 @@
 
             // Call the sort function
             sortListAlphabetically();
-        </script>
+        </script> -->
+         <!-- Sorting -->
+        <script>
+        function sortUL(selector) {
+        var unsortedList = jQuery(selector);
+        unsortedList.find('li').sort(function (a, b) {
+           var upA = jQuery(a).text().toUpperCase();
+           var upB = jQuery(b).text().toUpperCase();
+           return (upA < upB) ? -1 : (upA > upB) ? 1 : 0;
+        }).appendTo(selector);
+};
+
+jQuery(window).on("load", function() {
+     sortUL("#listnovels");
+});
+       </script>
     </body>
 </html>
