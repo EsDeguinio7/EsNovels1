@@ -411,6 +411,25 @@ footer h5 {
     margin: 20px 0 15px 0;
 }
 
+/* Search Styling */
+
+.search-result-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 40px 10px 50px 10px;
+    padding: 10px 0;
+}
+
+.result-container {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
 @keyframes loading {
   from {
     transform: rotate(0turn);
@@ -460,6 +479,14 @@ footer h5 {
     footer h5 {
         margin-bottom: 25px;
     }
+
+    .result-container {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        justify-content: center;
+        align-content: center;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -470,7 +497,7 @@ footer h5 {
     h2 {
         display: block;
         float: left;
-        margin: 18px 0 0 110px;
+        margin: 18px 0 0 60px;
     }
     
     #header-menu {
@@ -519,5 +546,13 @@ footer h5 {
 
     footer {
         height: 100px;
+    }
+
+    .result-container {
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        justify-content: center;
+        align-content: center;
     }
 }
