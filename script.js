@@ -17,9 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = $(this).attr("data-src");
     });
 
-    $('#search_input').submit(function(){
-      const search = searchValue.replace(" ", "+");
-      const param = "page/search-result.html?search=" + search.toLowerCase();
-      window.location.href = param;
+    
+    $("#search").click(function () {
+      const searchValue = $("#search-input").val();
+    const param = "page/search-result.html?search=" + searchValue;
+        window.location.href = param;
+        console.log(param)
     });
+    
 });
