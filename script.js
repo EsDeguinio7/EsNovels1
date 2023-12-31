@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     
     $("#search").click(function () {
-      const searchValue = $("#search-input").val();
+      const searchValue = $("#search-input").val().toLowerCase();
     const param = "page/search-result.html?search=" + searchValue;
         window.location.href = param;
         console.log(param)
