@@ -235,7 +235,13 @@ nav ul li a {
     text-decoration: none;
     color: var(--third-color);
 }
-.content:nth-child(n+9){
+#new-container .content:nth-child(n+9){
+  display: none;
+}
+#recommend-container .content:nth-child(n+17){
+  display: none;
+}
+#favourite-container .content:nth-child(n+17){
   display: none;
 }
 .topType{
