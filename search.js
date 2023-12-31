@@ -43,7 +43,7 @@ function displayResults(results) {
     if (results.length > 0) {
         results.forEach(function (item) {
             const itemsDisplay =
-                "<div class='content' data-src='page/page-info.html?id=" +
+                "<div class='content' data-src='https://esdeguinio7.github.io/EsNovels1/page/page-info.html?id=" +
                 item.id +
                 "'><img class='content-image' src='" +
                 item.cover +
