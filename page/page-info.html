@@ -98,6 +98,7 @@
 
                 <h4 class="page-sections">Notes</h4>
                 <p class="sections-info" id="notes"></p>
+                
             </div>
             <div class="comment-container">
                 <h3>Comments</h3>
@@ -133,7 +134,7 @@
 
                         if (novel) {
                            //Meta tags
-                           contst metaUrl = "<meta name='url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta name='description' content='"+novel.synopsis+"'/><meta name='title' content='"+novel.title+"'/><title>"+novel.title+"</title><meta property='og:url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta property='og:title' content='"+novel.title+"'/><meta property='og:description' content='"+novel.synopsis+"'/>";
+                           const metaUrl = "<meta name='url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta name='description' content='"+novel.synopsis+"'/><meta name='title' content='"+novel.title+"'/><title>"+novel.title+"</title><meta property='og:url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta property='og:title' content='"+novel.title+"'/><meta property='og:description' content='"+novel.synopsis+"'/>";
                            $('head').append(metaUrl);
                            //Info 
                             $("#title").text(novel.title);
@@ -178,7 +179,7 @@
              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
             var disqus_config = function () {
                 this.page.url = window.location.href; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = "#header-menu"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                this.page.identifier = "#title"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
             };
             (function () {
                 // DON'T EDIT BELOW THIS LINE
