@@ -12,7 +12,7 @@
             href="https://fonts.googleapis.com/css2?family=Dhurjati&display=swap"
             rel="stylesheet"
         />
-        <title>EsNovels</title>
+
         <link rel="stylesheet" type="text/css" href="../style.css" />
         <link rel="icon" href="../Images/es.gif" />
         <script
@@ -32,16 +32,25 @@
             </label>
             <h2><a href="../index.html">EsNovels</a></h2>
             <i class="fa-solid fa-magnifying-glass" id="search"></i>
-                <input type="text" placeholder="Search..">       
-                <div id="header-menu">
-                 <ul>
-                  <li><a href="../index.html">Home</a></li>
-                  <li><a href="../List/Light-Novels.html">Light Novels</a></li>
-                  <li><a href="../List/Web-Novels.html">Web Novels</a></li>
-                  <li><a href="../List/Korean-Novels.html">Korean Novels</a></li>
-                  <li><a href="https://web.facebook.com/profile.php?id=100085285262654">Contact</a></li>
+            <input type="text" placeholder="Search.." />
+            <div id="header-menu">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li>
+                        <a href="../List/Light-Novels.html">Light Novels</a>
+                    </li>
+                    <li><a href="../List/Web-Novels.html">Web Novels</a></li>
+                    <li>
+                        <a href="../List/Korean-Novels.html">Korean Novels</a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://web.facebook.com/profile.php?id=100085285262654"
+                            >Contact</a
+                        >
+                    </li>
                 </ul>
-                  </div>
+            </div>
         </header>
         <nav id="navbar">
             <ul>
@@ -49,13 +58,18 @@
                 <li><a href="../List/Light-Novels.html">Light Novels</a></li>
                 <li><a href="../List/Web-Novels.html">Web Novels</a></li>
                 <li><a href="../List/Korean-Novels.html">Korean Novels</a></li>
-                <li><a href="https://web.facebook.com/profile.php?id=100085285262654">Contact</a></li>
+                <li>
+                    <a
+                        href="https://web.facebook.com/profile.php?id=100085285262654"
+                        >Contact</a
+                    >
+                </li>
                 <li><a href="https://ko-fi.com/esnovels">Support</a></li>
             </ul>
         </nav>
         <div class="page-info-container">
             <div class="page-info">
-              <div class="loader loader1" id="page-loader"></div>
+                <div class="loader loader1" id="page-loader"></div>
                 <h3 class="page-title" id="title"></h3>
                 <img class="page-img" src="" loading="lazy" id="cover" />
                 <h4 class="page-sections">Alternative Title</h4>
@@ -85,24 +99,11 @@
                 <h4 class="page-sections">Notes</h4>
                 <p class="sections-info" id="notes"></p>
             </div>
+            <div class="comment-container">
+                <h3>Comments</h3>
+                <div id="disqus_thread"></div>
+            </div>
         </div>
-        <div id="disqus_thread"></div>
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-    var disqus_config = function () {
-    this.page.url = 'data-src';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = '#header-menu'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://https-esdeguinio7-github-io-esnovels1.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <script src="../jquery-3.7.1.min.js"></script>
         <script src="../script.js"></script>
         <script>
@@ -118,21 +119,23 @@
                 fetch("../data.json")
                     .then(response => {
                         if (!response.ok) {
-                          $('.loader1').hide();
+                            $(".loader1").hide();
                             throw new Error("Failed to fetch data.");
                         }
                         return response.json();
                     })
                     .then(data => {
                         const dataResponse = data;
-                        $('.loader1').hide();
+                        $(".loader1").hide();
                         let novel = dataResponse.find(
                             item => item.id === novelId
                         );
 
                         if (novel) {
-                            console.log(novel.title);
-
+                           //Meta tags
+                           contst metaUrl = "<meta name='url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta name='description' content='"+novel.synopsis+"'/><meta name='title' content='"+novel.title+"'/><title>"+novel.title+"</title><meta property='og:url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta property='og:title' content='"+novel.title+"'/><meta property='og:description' content='"+novel.synopsis+"'/>";
+                           $('head').append(metaUrl);
+                           //Info 
                             $("#title").text(novel.title);
                             $("#cover").attr("src", novel.cover);
                             $("#status").text(novel.status);
@@ -169,6 +172,35 @@
                     });
             });
         </script>
-        <script id="dsq-count-scr" src="//https-esdeguinio7-github-io-esnovels1.disqus.com/count.js" async></script>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+            var disqus_config = function () {
+                this.page.url = window.location.href; // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = "#header-menu"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement("script");
+                s.src =
+                    "https://https-esdeguinio7-github-io-esnovels1.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript
+            >Please enable JavaScript to view the
+            <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+            ></noscript
+        >
+        <script
+            id="dsq-count-scr"
+            src="//https-esdeguinio7-github-io-esnovels1.disqus.com/count.js"
+            async
+        ></script>
+        
     </body>
 </html>
