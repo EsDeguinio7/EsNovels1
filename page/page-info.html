@@ -98,7 +98,6 @@
 
                 <h4 class="page-sections">Notes</h4>
                 <p class="sections-info" id="notes"></p>
-                
             </div>
             <div class="comment-container">
                 <h3>Comments</h3>
@@ -133,10 +132,25 @@
                         );
 
                         if (novel) {
-                           //Meta tags
-                           const metaUrl = "<meta name='url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta name='description' content='"+novel.synopsis+"'/><meta name='title' content='"+novel.title+"'/><title>"+novel.title+"</title><meta property='og:url' content='https://esdeguinio7.github.io/EsNovels1/page/"+novel.id+"'/><meta property='og:title' content='"+novel.title+"'/><meta property='og:description' content='"+novel.synopsis+"'/>";
-                           $('head').append(metaUrl);
-                           //Info 
+                            //Meta tags
+                            const metaUrl =
+                                "<meta name='url' content='https://esdeguinio7.github.io/EsNovels1/page/" +
+                                novel.id +
+                                "'/><meta name='description' content='" +
+                                novel.synopsis +
+                                "'/><meta name='title' content='" +
+                                novel.title +
+                                "'/><title>" +
+                                novel.title +
+                                "</title><meta property='og:url' content='https://esdeguinio7.github.io/EsNovels1/page/" +
+                                novel.id +
+                                "'/><meta property='og:title' content='" +
+                                novel.title +
+                                "'/><meta property='og:description' content='" +
+                                novel.synopsis +
+                                "'/>";
+                            $("head").append(metaUrl);
+                            //Info
                             $("#title").text(novel.title);
                             $("#cover").attr("src", novel.cover);
                             $("#status").text(novel.status);
@@ -150,6 +164,24 @@
                             $("#translationGroup").text(novel.translationGroup);
                             $("#synopsis").html(novel.synopsis);
                             $("#notes").html(novel.notes);
+
+                            /**
+                             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables 
+                            **/
+                            var disqus_config = function () {
+                                this.page.url = $("meta[name='url']").attr('content'); // Replace PAGE_URL with your page's canonical URL variable
+                                this.page.identifier = novel.id; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                            };
+                            (function () {
+                                // DON'T EDIT BELOW THIS LINE
+                                var d = document,
+                                    s = d.createElement("script");
+                                s.src =
+                                    "https://https-esdeguinio7-github-io-esnovels1.disqus.com/embed.js";
+                                s.setAttribute("data-timestamp", +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
 
                             const volData = novel.volumes;
 
@@ -173,24 +205,7 @@
                     });
             });
         </script>
-        <script>
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-            var disqus_config = function () {
-                this.page.url = window.location.href; // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = "#title"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            (function () {
-                // DON'T EDIT BELOW THIS LINE
-                var d = document,
-                    s = d.createElement("script");
-                s.src =
-                    "https://https-esdeguinio7-github-io-esnovels1.disqus.com/embed.js";
-                s.setAttribute("data-timestamp", +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
+
         <noscript
             >Please enable JavaScript to view the
             <a href="https://disqus.com/?ref_noscript"
@@ -202,6 +217,5 @@
             src="//https-esdeguinio7-github-io-esnovels1.disqus.com/count.js"
             async
         ></script>
-        
     </body>
 </html>
