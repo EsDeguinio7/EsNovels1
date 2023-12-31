@@ -271,6 +271,7 @@ nav ul li a {
 
 .page-info-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
@@ -366,6 +367,15 @@ nav ul li a {
     width: 140px;
     border-bottom: 2px solid red;
     margin: 20px 0 30px 95px;
+}
+.comment-container{
+  width: 350px;
+  height: auto;
+  padding: 20px 10px;
+}
+.comment-container h3{
+  color: #151515;
+  font-size: 16pt;
 }
 
 #page-loader{
