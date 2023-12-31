@@ -16,11 +16,14 @@ document.addEventListener("DOMContentLoaded", function () {
     $("#favourite-container").on("click", ".content", function () {
         window.location.href = $(this).attr("data-src");
     });
-
+    
     $("#search").click(function () {
         const searchValue = $("#search-input").val().toLowerCase();
         const param = "https://esdeguinio7.github.io/EsNovels1/page/search-result.html?search=" + searchValue;
         window.location.href = param;
         console.log(param);
+    });
+    $(".result-container").on("click", ".content", function () {
+        window.location.href = $(this).attr("data-src");
     });
 });
