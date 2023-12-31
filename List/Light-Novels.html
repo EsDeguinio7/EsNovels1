@@ -114,28 +114,32 @@
                 // Get novels on response
                 getNovels()
                     .then(data => {
-                        const dataResponse = data;
 
+                        const dataResponse = data;
                         $(".loader2").hide();
-                        dataResponse.forEach(items => {
-                            const listItems =
+                        let novel = dataResponse.filter(
+                            item => item.type === "Light Novel"
+                        );
+
+                        if (novel.length > 0) {
+                            novel.forEach(items => {
+                              const listItems =
                                 "<li><a href='../page/page-info.html?id=" +
                                 items.id +
                                 "'>" +
                                 items.title +
                                 "</a></li>";
-                            $("#listnovels").append(listItems);
-                        });
+                               $("#listnovels").append(listItems);
+                            });
+                        }
                     })
                     .catch(error => {
                         const errorDisplay =
                             "<li class='errorCon'>" + error + "</li>";
-                        $("#listnovelsr").append(errorDisplay);
+                        $("#listnovels").append(errorDisplay);
                     });
-            });
-        </script>
-        <script>
-            function sortListAlphabetically() {
+                    
+                 function sortListAlphabetically() {
                 var $list = $("#listnovels");
                 var $listItems = $list.children("li");
 
@@ -150,8 +154,11 @@
 
             // Call the sort function
             sortListAlphabetically();
+                    
+            });
         </script>
-         <!-- My Sorting - Not Working -->
+
+        <!-- My Sorting - Not Working -->
         <!-- <script>
         function sortUL(selector) {
         var unsortedList = jQuery(selector);
