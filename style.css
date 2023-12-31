@@ -368,14 +368,11 @@ nav ul li a {
     border-bottom: 2px solid red;
     margin: 20px 0 30px 95px;
 }
+
 .comment-container{
   width: 350px;
   height: auto;
   padding: 20px 10px;
-}
-.comment-container h3{
-  color: #151515;
-  font-size: 16pt;
 }
 
 #page-loader{
@@ -497,6 +494,9 @@ footer h5 {
         justify-content: center;
         align-content: center;
     }
+
+    .comment-container {
+        width: 400px;
 }
 
 @media only screen and (min-width: 1000px) {
