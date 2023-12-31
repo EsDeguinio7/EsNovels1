@@ -114,7 +114,6 @@
                 // Get novels on response
                 getNovels()
                     .then(data => {
-
                         const dataResponse = data;
                         $(".loader2").hide();
                         let novel = dataResponse.filter(
@@ -123,13 +122,13 @@
 
                         if (novel.length > 0) {
                             novel.forEach(items => {
-                              const listItems =
-                                "<li><a href='../page/page-info.html?id=" +
-                                items.id +
-                                "'>" +
-                                items.title +
-                                "</a></li>";
-                               $("#listnovels").append(listItems);
+                                const listItems =
+                                    "<li><a href='../page/page-info.html?id=" +
+                                    items.id +
+                                    "'>" +
+                                    items.title +
+                                    "</a></li>";
+                                $("#listnovels").append(listItems);
                             });
                         }
                     })
@@ -138,40 +137,32 @@
                             "<li class='errorCon'>" + error + "</li>";
                         $("#listnovels").append(errorDisplay);
                     });
-                    
-                 function sortListAlphabetically() {
-                var $list = $("#listnovels");
-                var $listItems = $list.children("li");
-
-                $listItems.sort(function (a, b) {
-                    var textA = $(a).text().toUpperCase();
-                    var textB = $(b).text().toUpperCase();
-                    return textA < textB ? -1 : textA > textB ? 1 : 0;
-                });
-
-                $list.append($listItems);
-            }
-
-            // Call the sort function
-            sortListAlphabetically();
-                    
             });
         </script>
+        <script>
+            var list, i, switching, b, shouldSwitch;
+            list = document.getElementById("listnovels");
+            switching = true;
 
-        <!-- My Sorting - Not Working -->
-        <!-- <script>
-        function sortUL(selector) {
-        var unsortedList = jQuery(selector);
-        unsortedList.find('li').sort(function (a, b) {
-           var upA = jQuery(a).text().toUpperCase();
-           var upB = jQuery(b).text().toUpperCase();
-           return (upA < upB) ? -1 : (upA > upB) ? 1 : 0;
-        }).appendTo(selector);
-};
-
-jQuery(window).on("load", function() {
-     sortUL("#listnovels");
-});
-       </script> -->
+            while (switching) {
+                switching = false;
+                b = list.getElementsByTagName("li");
+                // Loop through all list items:
+                for (i = 0; i < b.length - 1; i++) {
+                    shouldSwitch = false;
+                    if (
+                        b[i].innerHTML.toLowerCase() >
+                        b[i + 1].innerHTML.toLowerCase()
+                    ) {
+                        shouldSwitch = true;
+                        break;
+                    }
+                }
+                if (shouldSwitch) {
+                    b[i].parentNode.insertBefore(b[i + 1], b[i]);
+                    switching = true;
+                }
+            }
+        </script>
     </body>
 </html>
