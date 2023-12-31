@@ -16,4 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
     $("#favourite-container").on("click", ".content", function () {
         window.location.href = $(this).attr("data-src");
     });
+
+    $('#search_input').submit(function(){
+      const search = searchValue.replace(" ", "+");
+      const param = "page/search-result.html?search=" + search.toLowerCase();
+      window.location.href = param;
+    });
 });
