@@ -1,5 +1,57 @@
 [
     {
+      "id": "0000007",
+      "title": "Christmas Comes Not For Us",
+      "cover": "https://esdeguinio7.github.io/esnovels/Image/christmas-comes-not-for-us.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Drama, Romance, Sci-fi, Supernatural, Tradegy",
+      "alternative": "Boku to Kimi Dake ni Seiya wa Konai",
+      "authors": "Fujimiya Kazuki",
+      "artist": "Fal maro",
+      "publisher": "N/A",
+      "translationGroup": "Frosensama",
+      "recommended": "no",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "Once the words “I love you” passed her lips, she died, over and over.<br/><br/>It was December 24th, Christmas Eve, and High School Student Riichi’s long-held feelings for Natsumi had been returned. Yet before his happiness could sink in, she lost her life right in front of him. Once he regained his senses, he had returned to two days prior… He learnt that the words “I love you” had become a trigger to rewind time. He attempted to avoid the confession from his beloved but she would always do so, and die once again.<br/><br/>“I love you, Riichi. I love you.”<br/><br/>Trapped in an endless Christmas Eve, will Riichi manage to overcome the recurring tragedy and seize his future?",
+      "notes":"",
+      "volumesCount": "1",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-pdf53",
+            "link2": "https://direct-link.net/735289/volume-1-epub53"
+      }
+    ]
+  },
+    {
+        "id": "0000001",
+        "title": "Nekonoyama Neneko Becomes a Neko",
+        "cover": "https://esdeguinio7.github.io/EsNovels1/Images/Nekonoyama%20Neneko%20Becomes%20a%20Neko.jpeg",
+        "type": "Light Novel",
+        "status": "Completed",
+        "genre": "Ecchi, Mature, Fantasy, Romance, Yuri",
+        "alternative": "猫ノ山寧々子はネコになる",
+        "authors": "Hinohara",
+        "artist": "Mato",
+        "publisher": "N/A",
+        "volumesCount": "1",
+        "translationGroup": "GlueGourmandizer",
+        "recommended": "yes",
+        "newUpdate": "yes",
+        "addToFav": "no",
+        "synopsis": "“Is it wrong for a girl to want to become a prince?”<br/><br/>Nekonoyama Neneko is a demihuman in high school who can turn into a cat.<br/><br/>While hiding her true identity from the world, she is shy around everyone anyone except her family.<br/><br/>The only one she allows into her heart is her older sister’s friend, Mashiro.<br/><br/>Neneko lives while continuing to admire the cool and mysterious Mashiro.<br/><br/>One day, Neneko discovers that Mashiro is a vampire and proposes living together as her blood donor (partner).<br/><br/>This is a romance between girls clumsy at love.",
+        "notes": "",
+        "volumes": [
+            {
+                "title": "Volume 1",
+                "link1": "https://link-center.net/735289/volume-1-epub74",
+                "link2": "https://direct-link.net/735289/volume-1-pdf73"
+            }
+        ]
+    },
+    {
       "id": "0000005",
       "title": "Fated to Be Loved by Villains",
       "cover": "https://esdeguinio7.github.io/esnovels/Image/Fated-to-Be-Loved-by-Villains-min-1.png",
@@ -133,31 +185,5 @@
             "link2": "https://link-center.net/735289/volume-1-pdf80"
       }
     ]
-  },
-    {
-        "id": "1293844",
-        "title": "Nekonoyama Neneko Becomes a Neko",
-        "cover": "https://esdeguinio7.github.io/EsNovels1/Images/Nekonoyama%20Neneko%20Becomes%20a%20Neko.jpeg",
-        "type": "Light Novel",
-        "status": "Completed",
-        "genre": "Ecchi, Mature, Fantasy, Romance, Yuri",
-        "alternative": "猫ノ山寧々子はネコになる",
-        "authors": "Hinohara",
-        "artist": "Mato",
-        "publisher": "N/A",
-        "volumesCount": "1",
-        "translationGroup": "GlueGourmandizer",
-        "recommended": "yes",
-        "newUpdate": "yes",
-        "addToFav": "yes",
-        "synopsis": "“Is it wrong for a girl to want to become a prince?”<br/><br/>Nekonoyama Neneko is a demihuman in high school who can turn into a cat.<br/><br/>While hiding her true identity from the world, she is shy around everyone anyone except her family.<br/><br/>The only one she allows into her heart is her older sister’s friend, Mashiro.<br/><br/>Neneko lives while continuing to admire the cool and mysterious Mashiro.<br/><br/>One day, Neneko discovers that Mashiro is a vampire and proposes living together as her blood donor (partner).<br/><br/>This is a romance between girls clumsy at love.",
-        "notes": "",
-        "volumes": [
-            {
-                "title": "Volume 1",
-                "link1": "",
-                "link2": ""
-            }
-        ]
-    }
+  }
 ]
