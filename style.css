@@ -130,10 +130,10 @@ h2 a:hover {
     border-top: 1px solid #D3D3D3;
     position: absolute;
     z-index: 2;
-    transition: left 1s ease;
-    -webkit-transition: left 1s ease;
-    -moz-transition: left 1s ease;
-    -o-transition: left 1s ease;
+    transition: left 0.5s ease;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
 }
 
 nav ul {
