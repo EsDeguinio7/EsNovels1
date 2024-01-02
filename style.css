@@ -89,7 +89,7 @@ input[type=text], select {
     float: right;
     font-size: 20px;
     cursor: pointer;
-    margin: 20px 15px 0 0;
+    margin: 20px 10px 0 0;
 }
 
 h2 {
@@ -288,7 +288,7 @@ nav ul li a {
     padding: 10px 10px;
     width: 350px;
     height: auto;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 0 5px var(--third-color);
 }
 
@@ -300,7 +300,7 @@ nav ul li a {
 .page-img {
     width: 250px;
     height: 350px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #D3D3D3;
 }
 
