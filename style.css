@@ -330,7 +330,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 
 .list {
