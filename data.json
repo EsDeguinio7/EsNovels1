@@ -1,5 +1,46 @@
 [
     {
+      "id": "0000027",
+      "title": "Blade Dance of Elementalers",
+      "cover": "https://cdn.novelupdates.com/images/2017/02/STnBD_V01_cover.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Action, Comedy, Ecchi, Fantasy, Harem, Romance, School Life, Shounen, Supernatural",
+      "alternative": "Seirei Tsukai no Blade Dance",
+      "authors": "Shimizu Yuu",
+      "artist": "Nimura Yuuji, Sakura Hanpen, Shimesaba Kohada",
+      "publisher": "N/A",
+      "translationGroup": "Baka-Tsuki",
+      "recommended": "no",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Only a pure maiden can have a privilege to make contract with a spirit.<br/><br/>In Areishia Acadamy, maidens from noble family were gathered there, giving them an elite education to become a spirit contractor. A boy Kamito, by accident he peeped on a girl, Clair, who was taking a bath, and he even made a contract with the spirit that she wanted.<br/><br/>Kamito was actually an irregular male spirit contractor, which should not exist.",
+      "notes":"",
+      "volumesCount": "20",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub85",
+            "link2": "https://link-center.net/735289/volume-1-pdf84"
+      },
+          {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub39",
+            "link2": "https://direct-link.net/735289/volume-2-pdf43"
+      },
+          {
+            "title": "Volume 3",
+            "link1": "https://link-hub.net/735289/volume-3-epub27",
+            "link2": "https://link-center.net/735289/volume-3-pdf26"
+      },
+          {
+            "title": "Volume 4",
+            "link1": "https://link-target.net/735289/volume-4-epub22",
+            "link2": "https://direct-link.net/735289/volume-4-pdf24"
+      }
+    ]
+  },
+    {
       "id": "0000037",
       "title": "Date This Super Cute Me!",
       "cover": "https://cdn.novelupdates.com/images/2021/02/Date-This-Super-Cute-Me.jpeg",
@@ -326,37 +367,6 @@
             "title": "Volume 4",
             "link1": "https://direct-link.net/735289/volume-4-epub14",
             "link2": "https://link-center.net/735289/volume-4-pdf16"
-      }
-    ]
-  },
-    {
-      "id": "0000027",
-      "title": "Blade Dance of Elementalers",
-      "cover": "https://cdn.novelupdates.com/images/2017/02/STnBD_V01_cover.jpg",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Action, Comedy, Ecchi, Fantasy, Harem, Romance, School Life, Shounen, Supernatural",
-      "alternative": "Seirei Tsukai no Blade Dance",
-      "authors": "Shimizu Yuu",
-      "artist": "Nimura Yuuji, Sakura Hanpen, Shimesaba Kohada",
-      "publisher": "N/A",
-      "translationGroup": "Baka-Tsuki",
-      "recommended": "no",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Only a pure maiden can have a privilege to make contract with a spirit.<br/><br/>In Areishia Acadamy, maidens from noble family were gathered there, giving them an elite education to become a spirit contractor. A boy Kamito, by accident he peeped on a girl, Clair, who was taking a bath, and he even made a contract with the spirit that she wanted.<br/><br/>Kamito was actually an irregular male spirit contractor, which should not exist.",
-      "notes":"",
-      "volumesCount": "20",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub85",
-            "link2": "https://link-center.net/735289/volume-1-pdf84"
-      },
-          {
-            "title": "Volume 2",
-            "link1": "https://link-hub.net/735289/volume-2-epub39",
-            "link2": "https://direct-link.net/735289/volume-2-pdf43"
       }
     ]
   },
