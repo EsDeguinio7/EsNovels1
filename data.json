@@ -1,5 +1,41 @@
 [
        {
+      "id": "0000089",
+      "title": "Overwrite",
+      "cover": "https://cclawtranslationshome.files.wordpress.com/2023/01/301.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Comedy, Drama, Romance",
+      "alternative": "オーバーライト",
+      "authors": "Akiya Ikeda",
+      "artist": "Mirea",
+      "publisher": "N/A",
+      "translationGroup": "CClaw Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Graffiti. It’s the magic of ephemeral visuals that vividly overwrite even her and my thoughts―<br/><br/>Yoshi, a university student studying abroad in Bristol, Britain, uncovers graffiti at his workplace. Together with his colleague Boudicia, a languid but wild girl with golden hair, he uncovers a secret world of graffiti he never knew existed, as he is dragged into the conflict between graffiti writers and police, all the while struggling to rekindle his passion for music after a traumatic event.",
+      "notes":"",
+      "volumesCount": "3",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://direct-link.net/735289/volume-1-epub2",
+            "link2": "https://link-hub.net/735289/volume-1-pdf2"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-center.net/735289/volume-2-epub1",
+            "link2": "https://link-center.net/735289/volume-2-epub1"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://direct-link.net/735289/volume-3-epub1",
+            "link2": "https://direct-link.net/735289/volume-3-epub1"
+      }
+    ]
+  },
+       {
       "id": "0000088",
       "title": "I Know That After School, The Saint More Than Just Noble",
       "cover": "https://glucosetl.files.wordpress.com/2023/08/1-2.png",
