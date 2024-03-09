@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000114",
+      "title": "Tales of Reincarnation in Maydare",
+      "cover": "https://static.wikia.nocookie.net/maydare/images/a/a7/Maydare_ln_2_cover.jpg/revision/latest/scale-to-width-down/1200?cb=20210225042700",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Adventure, Fantasy, Romance, Shoujo",
+      "alternative": "Maydare Tensei Monogatari",
+      "authors": "Yuuma Midori",
+      "artist": "Amaichi Esora",
+      "publisher": "N/A",
+      "translationGroup": "Meidea Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "“Maydare”, a world that lives and breathes magic. Makia, the daughter of a rural noble, and Thor, a young knight, spend their days studying magic together and the two develop a strong bond. However, when Thor is chosen as a guardian of the Savior girl from another world, the two are separated.<br/><br/>Makia is shaken by Thor’s absence. However, if she attends the magic school in the capital, she will have the chance to see him again. In order to learn the truth behind her feelings for him, Makia goes to the most prominent magic school in the world.",
+      "notes":"",
+      "volumesCount": "6",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-target.net/735289/volume-1-epub129",
+            "link2": "https://link-hub.net/735289/volume-1-pdf131"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-target.net/735289/volume-2",
+            "link2": "https://link-target.net/735289/volume-2-pdf55"
+      }
+    ]
+  },
+       {
       "id": "0000118",
       "title": "What You Left Me with One Year to Live",
       "cover": "https://cdn.novelupdates.com/images/2022/02/Yomei-Ichinen-no-Kimi-ga-Boku-ni-Nokoshite-Kureta-Mono.jpg",
@@ -105,32 +136,6 @@
             "title": "Volume 1",
             "link1": "https://direct-link.net/735289/volume-1-epub130",
             "link2": "https://direct-link.net/735289/volume-1-pdf132"
-      }
-    ]
-  },
-       {
-      "id": "0000114",
-      "title": "Tales of Reincarnation in Maydare",
-      "cover": "https://cdn.novelupdates.com/images/2020/11/maydare-vol-1.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Adventure, Fantasy, Romance, Shoujo",
-      "alternative": "Maydare Tensei Monogatari",
-      "authors": "Yuuma Midori",
-      "artist": "Amaichi Esora",
-      "publisher": "N/A",
-      "translationGroup": "Meidea Tls",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "“Maydare”, a world that lives and breathes magic. Makia, the daughter of a rural noble, and Thor, a young knight, spend their days studying magic together and the two develop a strong bond. However, when Thor is chosen as a guardian of the Savior girl from another world, the two are separated.<br/><br/>Makia is shaken by Thor’s absence. However, if she attends the magic school in the capital, she will have the chance to see him again. In order to learn the truth behind her feelings for him, Makia goes to the most prominent magic school in the world.",
-      "notes":"",
-      "volumesCount": "6",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-target.net/735289/volume-1-epub129",
-            "link2": "https://link-hub.net/735289/volume-1-pdf131"
       }
     ]
   },
