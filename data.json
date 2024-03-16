@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000125",
+      "title": "The Story of a Manga Artist Who Was Imprisoned by a Strange High School Girl",
+      "cover": "https://esdeguinio7.github.io/esnovels/Image/The%20Story%20of%20a%20Manga%20Artist%20Who%20Was%20Imprisoned%20by%20a%20Strange%20High%20School%20Girl.png",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Drama, Ecchi, Horror, Mystery, Psychological, Romance, Seinen, Slice of Life",
+      "alternative": "Mishiranu Joshikousei ni Kankin Sareta Mangaka no Hanashi",
+      "authors": "穂積潜",
+      "artist": "Kitada Ryouma",
+      "publisher": "N/A",
+      "translationGroup": "Travis Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "“Where am I?” When I awoke, I noticed a strange ceiling, no lights around me, and a――collar and chain around my neck!? The room’s light suddenly turns on. There was a high school girl holding a kitchen knife. A JK and a manga artist, their life of confinement is about to begin!",
+      "notes":"",
+      "volumesCount": "3",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub67",
+            "link2": "https://link-center.net/735289/volume-pdf"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-target.net/735289/volume-2-epub29",
+            "link2": "https://link-hub.net/735289/volume-2-pdf33"
+      }
+    ]
+  },
+       {
       "id": "0000114",
       "title": "Tales of Reincarnation in Maydare",
       "cover": "https://cdn.novelupdates.com/images/2020/11/maydare-vol-1.jpg",
