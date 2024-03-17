@@ -242,7 +242,7 @@ nav ul li a {
 #recommend-container .content:nth-child(n+17){
   display: none;
 }
-#favourite-container .content:nth-child(n+17){
+#favourite-container .content:nth-child(n+25){
   display: none;
 }
 .topType{
