@@ -1,5 +1,141 @@
 [
        {
+      "id": "0000134",
+      "title": "Date A Live",
+      "cover": "https://esdeguinio7.github.io/esnovels/Image/Date-A-Live.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Action, Comedy, Drama, Ecchi, Fantasy, Harem, Mecha, Romance, School Life, Sci-fi, Shounen, Supernatural, Tragedy",
+      "alternative": "デート・ア・ライブ",
+      "authors": "Tachibana Koushi",
+      "artist": "Tsunako",
+      "publisher": "Yen Press",
+      "translationGroup": "N/A",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "April 10th. Yesterday was the last day of spring vacation, so starting this morning it was a school day. After being woken up by his cute little sister, Itsuka Shidou believed that it would be the start of another normal day. As for predicting the chance meeting with the girl who called herself a spirit……<br/><br/>Along with a sudden shockwave, the townscape vanished without a trace. In a corner of the street which had now become a crater, the girl was there.<br/><br/>“?You, have you come to kill me too?”<br/><br/>She is the disaster that will destroy humanity, a monster of unknown origin, and a being rejected by the world. There are only two ways to stop this girl: annihilation, and conversation. His little sister Kotori, wrapped in a military uniform, thus said to Shidou: “Since it’s like this, just go date her, and make the spirit fall for you!” “Wh.. whaaaaaaaat!?” Enter a new age of boy meets girl!!",
+      "notes":"Volumes 1–10 are official translations, while Volumes 11–22 are fan translations.",
+      "volumesCount": "22",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "http://lyksoomu.com/bfpe",
+            "link2": "http://lyksoomu.com/bfqI"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "http://lyksoomu.com/bfrs",
+            "link2": "http://lyksoomu.com/bfsd"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "http://lyksoomu.com/bftm",
+            "link2": "http://lyksoomu.com/bfvx"
+      },
+             {
+            "title": "Volume 4",
+            "link1": "http://lyksoomu.com/bfwX",
+            "link2": "http://lyksoomu.com/bfxF"
+      },
+             {
+            "title": "Volume 5",
+            "link1": "http://lyksoomu.com/bfxz",
+            "link2": "http://lyksoomu.com/bfyi"
+      },
+             {
+            "title": "Volume 6",
+            "link1": "http://lyksoomu.com/bg0O",
+            "link2": "http://lyksoomu.com/bg0o"
+      },
+             {
+            "title": "Volume 7",
+            "link1": "http://lyksoomu.com/bg1M",
+            "link2": "http://lyksoomu.com/hAJx"
+      },
+             {
+            "title": "Volume 8",
+            "link1": "https://direct-link.net/735289/volume-8-epub",
+            "link2": "https://link-target.net/735289/volume-8-pdf"
+      },
+             {
+            "title": "Volume 9",
+            "link1": "https://direct-link.net/735289/volume-9-epub",
+            "link2": "https://link-center.net/735289/volume-9-pdf"
+      },
+             {
+            "title": "Volume 10",
+            "link1": "https://link-target.net/735289/volume-10-epub4",
+            "link2": "https://link-hub.net/735289/volume-10-pdf4"
+      },
+             {
+            "title": "Volume 11",
+            "link1": "http://lyksoomu.com/fLcx",
+            "link2": "http://lyksoomu.com/fLeA"
+      },
+             {
+            "title": "Volume 11.5",
+            "link1": "http://lyksoomu.com/fLet",
+            "link2": "http://lyksoomu.com/fLg5"
+      },
+             {
+            "title": "Volume 12",
+            "link1": "http://lyksoomu.com/fLgj",
+            "link2": "http://lyksoomu.com/fLhQ"
+      },
+             {
+            "title": "Volume 13",
+            "link1": "http://lyksoomu.com/ghNZ",
+            "link2": "http://lyksoomu.com/ghRd"
+      },
+             {
+            "title": "Volume 14",
+            "link1": "http://lyksoomu.com/ghT5",
+            "link2": "http://lyksoomu.com/ghUZ"
+      },
+             {
+            "title": "Volume 15",
+            "link1": "http://lyksoomu.com/ghWC",
+            "link2": "http://lyksoomu.com/ghdU"
+      },
+             {
+            "title": "Volume 16",
+            "link1": "http://lyksoomu.com/gheR",
+            "link2": "http://lyksoomu.com/ghgB"
+      },
+             {
+            "title": "Volume 17",
+            "link1": "http://lyksoomu.com/hAKx",
+            "link2": "http://lyksoomu.com/hAMD"
+      },
+             {
+            "title": "Volume 18",
+            "link1": "http://lyksoomu.com/hANL",
+            "link2": "http://lyksoomu.com/hAOU"
+      },
+             {
+            "title": "Volume 19",
+            "link1": "http://lyksoomu.com/hAPP",
+            "link2": "http://lyksoomu.com/hAQU"
+      },
+             {
+            "title": "Volume 20",
+            "link1": "http://lyksoomu.com/hjgP",
+            "link2": "http://lyksoomu.com/hjhc"
+      },
+             {
+            "title": "Volume 21",
+            "link1": "http://lyksoomu.com/hjjH",
+            "link2": "http://lyksoomu.com/hjlF"
+      },
+             {
+            "title": "Volume 22",
+            "link1": "http://lyksoomu.com/hjmR",
+            "link2": "http://lyksoomu.com/hjnK"
+      }
+    ]
+  },
+       {
       "id": "0000133",
       "title": "Why Does No One Remember My World?",
       "cover": "https://cdn.novelupdates.com/images/2019/01/10031.jpeg",
