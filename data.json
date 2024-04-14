@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000079",
+      "title": "Gamers!",
+      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigKlFUwcURfhx7orEZk2qdqgMxthIgX44kHUujjqxHhzVaIsJ_9Ml7iZaYh6X7eQ9bOAWghQl_ITq9aQxAGM8RInupyyjcb4CSV_6LoWP2IEu846RIpGvvvllDE0Tw3SeFAl8WXrl3uvI/s640/DLraw.net_cover.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
+      "alternative": "ゲーマーズ!",
+      "authors": "AOI Sekina",
+      "artist": "Cactus",
+      "publisher": "N/A",
+      "translationGroup": "SkyTheWood & Confused Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
+      "notes":"",
+      "volumesCount": "12",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub119",
+            "link2": "https://link-center.net/735289/volume-1-pdf119"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub63",
+            "link2": "https://link-hub.net/735289/volume-2-pdf65"
+      }
+    ]
+  },
+       {
       "id": "0000090",
       "title": "Are You Really My Angel?",
       "cover": "https://aftersleepclub.wordpress.com/wp-content/uploads/2023/06/kimiten-vol-2-cover.jpg",
@@ -2751,33 +2782,6 @@
       }
     ]
   },
-       {
-      "id": "0000079",
-      "title": "Gamers!",
-      "cover": "https://cdn.novelupdates.com/images/2016/11/Gamers.jpg",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
-      "alternative": "ゲーマーズ!",
-      "authors": "AOI Sekina",
-      "artist": "Cactus",
-      "publisher": "N/A",
-      "translationGroup": "SkyTheWood",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
-      "notes":"",
-      "volumesCount": "12",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub119",
-            "link2": "https://link-center.net/735289/volume-1-pdf119"
-      }
-    ]
-  },
-
        {
       "id": "0000078",
       "title": "No Heaven for Vampires",
