@@ -1,5 +1,41 @@
 [
        {
+      "id": "0000079",
+      "title": "Gamers!",
+      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJEBrmZRlnH7nf-Gj-UxfWj6JLNvMiN0XHE4cw6-1WeIUbi9xvSZ0JNAmBrQ_iUdbkUTdlF5LygtFvBM4ab215KJnFkJUiAqhhIxXzfN4_cs05fKKIC3IoZ482PeMjtONQk2dEftRBXJ4/s640/cover.jpeg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
+      "alternative": "ゲーマーズ!",
+      "authors": "AOI Sekina",
+      "artist": "Cactus",
+      "publisher": "N/A",
+      "translationGroup": "SkyTheWood & Confused Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
+      "notes":"",
+      "volumesCount": "12 + 3 DLC",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub119",
+            "link2": "https://link-center.net/735289/volume-1-pdf119"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub63",
+            "link2": "https://link-hub.net/735289/volume-2-pdf65"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-center.net/735289/volume-3-epub46",
+            "link2": "https://link-center.net/735289/volume-3-pdf45"
+      }
+    ]
+  },
+       {
       "id": "0000159",
       "title": "Apocalypse Witch: To the Strongests of an Age of Plenty",
       "cover": "https://cdn.novelupdates.com/images/2019/09/ApocalypseWitch_v01_cover1.jpg",
@@ -146,37 +182,6 @@
             "title": "Volume 5",
             "link1": "https://link-hub.net/735289/volume-5-epub23",
             "link2": "https://link-center.net/735289/volume-5-pdf26"
-      }
-    ]
-  },
-       {
-      "id": "0000079",
-      "title": "Gamers!",
-      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigKlFUwcURfhx7orEZk2qdqgMxthIgX44kHUujjqxHhzVaIsJ_9Ml7iZaYh6X7eQ9bOAWghQl_ITq9aQxAGM8RInupyyjcb4CSV_6LoWP2IEu846RIpGvvvllDE0Tw3SeFAl8WXrl3uvI/s640/DLraw.net_cover.jpg",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
-      "alternative": "ゲーマーズ!",
-      "authors": "AOI Sekina",
-      "artist": "Cactus",
-      "publisher": "N/A",
-      "translationGroup": "SkyTheWood & Confused Tls",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
-      "notes":"",
-      "volumesCount": "12",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub119",
-            "link2": "https://link-center.net/735289/volume-1-pdf119"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-hub.net/735289/volume-2-epub63",
-            "link2": "https://link-hub.net/735289/volume-2-pdf65"
       }
     ]
   },
