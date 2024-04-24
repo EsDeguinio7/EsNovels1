@@ -1,5 +1,56 @@
 [
        {
+      "id": "0000079",
+      "title": "Gamers!",
+      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinbnUPUUDZIr0HaUGt2IUuzwOqTHJZvOny4O_fDjQbcgBXvfgfbI7skXH3IH0_IVfNG37iV9R3hvT988RaC0hPpF1_VSfc0FHnQ69rBEo-Xlu6rukaiYEXrJEwvpfP039CNZcvrPOt0zY/s640/DLraw.net_0001.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
+      "alternative": "ゲーマーズ!",
+      "authors": "AOI Sekina",
+      "artist": "Cactus",
+      "publisher": "N/A",
+      "translationGroup": "SkyTheWood & Confused Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
+      "notes":"",
+      "volumesCount": "12 + 3 DLC",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub119",
+            "link2": "https://link-center.net/735289/volume-1-pdf119"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub63",
+            "link2": "https://link-hub.net/735289/volume-2-pdf65"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-center.net/735289/volume-3-epub46",
+            "link2": "https://link-center.net/735289/volume-3-pdf45"
+      },
+             {
+            "title": "Volume 4",
+            "link1": "https://link-hub.net/735289/volume-4-epub33",
+            "link2": "https://link-center.net/735289/volume-4-pdf35"
+      },
+             {
+            "title": "Volume 5",
+            "link1": "https://link-target.net/735289/volume-5-epub24",
+            "link2": "https://link-target.net/735289/volume-5-pdf27"
+      },
+             {
+            "title": "Volume 6",
+            "link1": "https://direct-link.net/735289/volume-6-epub17",
+            "link2": "https://link-hub.net/735289/volume-6-pdf15"
+      }
+    ]
+  },
+       {
       "id": "0000168",
       "title": "Liar's Lips Fall Apart in Love",
       "cover": "https://cdn.novelupdates.com/images/2024/01/Liars-Lips-Fall-Apart-in-Love.jpg",
@@ -141,52 +192,6 @@
             "title": "Volume 2",
             "link1": "https://link-target.net/735289/volume-2-epub66",
             "link2": "https://link-hub.net/735289/volume-2-pdf68"
-      }
-    ]
-  },
-       {
-      "id": "0000079",
-      "title": "Gamers!",
-      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4GN8cVBbi7IIqffX5iNBV8cxkYd4GHYDLXSm3GJDPK-ROSHP9PkM0aBm83Xb_wPj2HDTXFdRUWDu4QKAvce0ByFvaJNzSvR4Iq9-0wDOe8B3Ek2ndOVJ06rfM2YhAOK4go2F_hjEm6Wc/s640/DLraw.net_0001.jpg",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Comedy, Drama, Harem, Romance, School Life, Slice of Life",
-      "alternative": "ゲーマーズ!",
-      "authors": "AOI Sekina",
-      "artist": "Cactus",
-      "publisher": "N/A",
-      "translationGroup": "SkyTheWood & Confused Tls",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "The romantic comedy light novel series centers on the gaming lives of various high school students who play video games, including: Keita Amano, a lonely young man who loves video games; Karen Tendō, the beautiful president of the video game club; Chiaki Hoshinomori, who constantly fights with Keita; and Tasuku Uehara, who puts on a facade of being satisfied with his life in the real world, but he in truth loves video games.",
-      "notes":"",
-      "volumesCount": "12 + 3 DLC",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub119",
-            "link2": "https://link-center.net/735289/volume-1-pdf119"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-hub.net/735289/volume-2-epub63",
-            "link2": "https://link-hub.net/735289/volume-2-pdf65"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "https://link-center.net/735289/volume-3-epub46",
-            "link2": "https://link-center.net/735289/volume-3-pdf45"
-      },
-             {
-            "title": "Volume 4",
-            "link1": "https://link-hub.net/735289/volume-4-epub33",
-            "link2": "https://link-center.net/735289/volume-4-pdf35"
-      },
-             {
-            "title": "Volume 5",
-            "link1": "https://link-target.net/735289/volume-5-epub24",
-            "link2": "https://link-target.net/735289/volume-5-pdf27"
       }
     ]
   },
