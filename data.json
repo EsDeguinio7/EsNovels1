@@ -1,5 +1,46 @@
 [
        {
+      "id": "0000159",
+      "title": "Apocalypse Witch: To the Strongests of an Age of Plenty",
+      "cover": "https://www.baka-tsuki.org/project/images/b/bd/ApocalypseWitch_v04_cover.png",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Harem, School Life, Sci-fi, Tragedy",
+      "alternative": "アポカリプス・ウィッチ 飽食時代の【最強】たちへ",
+      "authors": "Kamachi Kazuma",
+      "artist": "Mika Pikazo",
+      "publisher": "N/A",
+      "translationGroup": "Baka-Tsuki",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "New magic and old magic. A school battle fantasy over the title of strongest begins here!<br/><br/>Crystal magic is the cutting edge of magical technology. Covering one’s entire body with crystal flower armor can produce a variety of supernatural phenomena. But due to a mistake, Utagai Karuta did not receive that special armor and instead receives power by summoning the obedient crystal girl Aine.<br/><br/>“Sacrifice-sama, how long are you going to tease me? I’m going to enter a rebellious phase at this rate.”<br/><br/>“That isn’t how rebellious phases are supposed to work.”<br/><br/>But at ocean-top Crystal Magic Academy Grimoire, where Karuta and everyone learn crystal magic, an upperclassman from the previous generation has been called in as a guest. That user of god-worshiping magic is known as the world’s strongest, and they step up onto the podium and speak to the entire student body. This begins a clash between the forces of new magic and old magic.<br/><br/>“Every last one of you is incompetent. Thus, Grimoire will be shut down.”",
+      "notes":"",
+      "volumesCount": "5",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-epub155",
+            "link2": "https://direct-link.net/735289/volume-1-pdf154"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-target.net/735289/volume-2-epub66",
+            "link2": "https://link-hub.net/735289/volume-2-pdf68"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-target.net/735289/volume-3-epub49",
+            "link2": "https://link-target.net/735289/volume-3-pdf48"
+      },
+             {
+            "title": "Volume 4",
+            "link1": "https://direct-link.net/735289/volume-4-epub34",
+            "link2": "https://link-target.net/735289/volume-4-pdf36"
+      }
+    ]
+  },
+       {
       "id": "0000173",
       "title": "Geek Mob Mercenary Knows His Place",
       "cover": "https://cdn.novelupdates.com/images/2023/10/Geek-Mob-Mercenary-Knows-His-Place-LN.png",
@@ -115,42 +156,6 @@
             "title": "Volume 1",
             "link1": "https://direct-link.net/735289/volume-1-epub167",
             "link2": "https://direct-link.net/735289/volume-1-pdf166"
-      }
-    ]
-  },
-       {
-      "id": "0000159",
-      "title": "Apocalypse Witch: To the Strongests of an Age of Plenty",
-      "cover": "https://www.baka-tsuki.org/project/thumb.php?f=ApocalypseWitch_v03_cover.jpg&width=800",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Harem, School Life, Sci-fi, Tragedy",
-      "alternative": "アポカリプス・ウィッチ 飽食時代の【最強】たちへ",
-      "authors": "Kamachi Kazuma",
-      "artist": "Mika Pikazo",
-      "publisher": "N/A",
-      "translationGroup": "Baka-Tsuki",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "New magic and old magic. A school battle fantasy over the title of strongest begins here!<br/><br/>Crystal magic is the cutting edge of magical technology. Covering one’s entire body with crystal flower armor can produce a variety of supernatural phenomena. But due to a mistake, Utagai Karuta did not receive that special armor and instead receives power by summoning the obedient crystal girl Aine.<br/><br/>“Sacrifice-sama, how long are you going to tease me? I’m going to enter a rebellious phase at this rate.”<br/><br/>“That isn’t how rebellious phases are supposed to work.”<br/><br/>But at ocean-top Crystal Magic Academy Grimoire, where Karuta and everyone learn crystal magic, an upperclassman from the previous generation has been called in as a guest. That user of god-worshiping magic is known as the world’s strongest, and they step up onto the podium and speak to the entire student body. This begins a clash between the forces of new magic and old magic.<br/><br/>“Every last one of you is incompetent. Thus, Grimoire will be shut down.”",
-      "notes":"",
-      "volumesCount": "5",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-hub.net/735289/volume-1-epub155",
-            "link2": "https://direct-link.net/735289/volume-1-pdf154"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-target.net/735289/volume-2-epub66",
-            "link2": "https://link-hub.net/735289/volume-2-pdf68"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "https://link-target.net/735289/volume-3-epub49",
-            "link2": "https://link-target.net/735289/volume-3-pdf48"
       }
     ]
   },
