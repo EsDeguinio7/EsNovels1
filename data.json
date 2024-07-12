@@ -1,5 +1,31 @@
 [
        {
+      "id": "0000202",
+      "title": "May Your Soul Rest in Magdala",
+      "cover": "https://www.baka-tsuki.org/project/thumb.php?f=MagdalaV1Cover.jpg&width=800",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Adventure, Drama, Fantasy, Romance",
+      "alternative": "Magdala de Nemure",
+      "authors": "HASEKURA Isuna",
+      "artist": "Nabeshima Tetsuhiro",
+      "publisher": "N/A",
+      "translationGroup": "Hellping",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "It is a world in which order is maintained through three great factions: the Church, which bears the greatest authority; the Order of Clausius, possessing influence on par with the Church, claimant of immense assets and military might, and; the Guild of Commerce, an association of merchants and artisans alike.<br/><br/>In this world is the alchemist Kusla, who has been captured and imprisoned for the crime of burning a saint’s bones.",
+      "notes":"",
+      "volumesCount": "8",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub198",
+            "link2": "https://direct-link.net/735289/volume-1-pdf196"
+      }
+    ]
+  },
+       {
       "id": "0000201",
       "title": "Turning the Tables on the Seatmate Killer!",
       "cover": "https://cdn.novelupdates.com/images/2020/01/t_700x780.jpg",
