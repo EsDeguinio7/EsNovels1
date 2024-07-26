@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000195",
+      "title": "This is Wizard’s Last Card",
+      "cover": "https://jptranslation5.wordpress.com/wp-content/uploads/2024/03/20240319_081530.jpg?w=722",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Fantasy, Mystery, School Life, Supernatural",
+      "alternative": "これが魔法使いの切り札",
+      "authors": "Hitsuji Tarou",
+      "artist": "Mishima Kurone",
+      "publisher": "N/A",
+      "translationGroup": "JP Translations for fun",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Not about strength. “Become a Mage to live joyfully.”<br/><br/>Seeking a life beyond combat, swordsman Rix enrols in a magic academy. Despite being deemed unfit for magic, Rix navigates campus life with sheer combat prowess, striving to grasp a new way of life through his unique ‘magic’.",
+      "notes":"",
+      "volumesCount": "2",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-epub189",
+            "link2": "https://link-center.net/735289/volume-1-pdf187"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub83",
+            "link2": "https://direct-link.net/735289/volume-2-pdf85"
+      }
+    ]
+  },
+       {
       "id": "0000162",
       "title": "My High School Life Is Physically Isolated",
       "cover": "https://cclawtranslations.home.blog/wp-content/uploads/2024/04/201.png",
@@ -671,32 +702,6 @@
             "title": "Volume 1",
             "link1": "https://link-center.net/735289/volume-1-epub190",
             "link2": "https://link-hub.net/735289/volume-1-pdf188"
-      }
-    ]
-  },
-       {
-      "id": "0000195",
-      "title": "This is Wizard’s Last Card",
-      "cover": "https://cdn.novelupdates.com/images/2023/11/This-is-Wizards-Last-Card.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Fantasy, Mystery, School Life, Supernatural",
-      "alternative": "これが魔法使いの切り札",
-      "authors": "Hitsuji Tarou",
-      "artist": "Mishima Kurone",
-      "publisher": "N/A",
-      "translationGroup": "JP Translations for fun",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Not about strength. “Become a Mage to live joyfully.”<br/><br/>Seeking a life beyond combat, swordsman Rix enrols in a magic academy. Despite being deemed unfit for magic, Rix navigates campus life with sheer combat prowess, striving to grasp a new way of life through his unique ‘magic’.",
-      "notes":"",
-      "volumesCount": "2",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-hub.net/735289/volume-1-epub189",
-            "link2": "https://link-center.net/735289/volume-1-pdf187"
       }
     ]
   },
