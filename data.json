@@ -1,5 +1,61 @@
 [
        {
+      "id": "0000081",
+      "title": "Free Life Fantasy Online",
+      "cover": "https://images1.penguinrandomhouse.com/cover/700jpg/9798888433287",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Adventure, Comedy, Fantasy, Sci-fi, Shounen, Slice of Life",
+      "alternative": "FLFO",
+      "authors": "Nenohi Akisuzu",
+      "artist": "Sherry",
+      "publisher": "Seven Seas",
+      "translationGroup": "N/A",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "Free Life Fantasy Online… a.k.a. FLFO.<br/><br/>Tsukishiro Kotone receives this game as gift from her little sister and starts playing.<br/><br/>The character’s race she has selected was… one of “Inhuman” races for enthusiasts.<br/><br/>A race said to be bad even among Inhuman races that are known to be difficult – a Zombie.",
+      "notes":"",
+      "volumesCount": "9",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-epub121",
+            "link2": "https://link-target.net/735289/volume-1-pdf121"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-target.net/735289/volume-2-epub51",
+            "link2": "https://link-target.net/735289/volume-1-pdf122"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-hub.net/735289/volume-3-epub34",
+            "link2": "https://link-center.net/735289/volume-3-pdf33"
+      },
+             {
+            "title": "Volume 4",
+            "link1": "https://link-target.net/735289/volume-4-epub26",
+            "link2": "https://link-hub.net/735289/volume-4-pdf28"
+      },
+             {
+            "title": "Volume 5",
+            "link1": "https://link-hub.net/735289/volume-5-epub19",
+            "link2": "https://direct-link.net/735289/volume-5-pdf22"
+      },
+             {
+            "title": "Volume 6",
+            "link1": "https://direct-link.net/735289/volume-6-epub20",
+            "link2": "https://direct-link.net/735289/volume-6-pdf18"
+      },
+             {
+            "title": "Volume 7",
+            "link1": "https://direct-link.net/735289/volume-7-epub13",
+            "link2": "https://direct-link.net/735289/volume-7-pdf13"
+      }
+    ]
+  },
+       {
       "id": "0000214",
       "title": "Chrono's War Record",
       "cover": "https://cdn.novelupdates.com/images/2020/04/Kuro-no-Senki-LN.jpg",
@@ -4814,52 +4870,6 @@
             "title": "Volume 1",
             "link1": "http://lyksoomu.com/m4sV",
             "link2": "http://lyksoomu.com/m4s3"
-      }
-    ]
-  },
-       {
-      "id": "0000081",
-      "title": "Free Life Fantasy Online",
-      "cover": "https://esdeguinio7.github.io/esnovels/Image/Free-Life-Fantasy-Online.jpeg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Adventure, Comedy, Fantasy, Sci-fi, Shounen, Slice of Life",
-      "alternative": "FLFO",
-      "authors": "Nenohi Akisuzu",
-      "artist": "Sherry",
-      "publisher": "Seven Seas",
-      "translationGroup": "N/A",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "Free Life Fantasy Online… a.k.a. FLFO.<br/><br/>Tsukishiro Kotone receives this game as gift from her little sister and starts playing.<br/><br/>The character’s race she has selected was… one of “Inhuman” races for enthusiasts.<br/><br/>A race said to be bad even among Inhuman races that are known to be difficult – a Zombie.",
-      "notes":"",
-      "volumesCount": "9",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-hub.net/735289/volume-1-epub121",
-            "link2": "https://link-target.net/735289/volume-1-pdf121"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-target.net/735289/volume-2-epub51",
-            "link2": "https://link-target.net/735289/volume-1-pdf122"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "https://link-hub.net/735289/volume-3-epub34",
-            "link2": "https://link-center.net/735289/volume-3-pdf33"
-      },
-             {
-            "title": "Volume 4",
-            "link1": "https://link-target.net/735289/volume-4-epub26",
-            "link2": "https://link-hub.net/735289/volume-4-pdf28"
-      },
-             {
-            "title": "Volume 5",
-            "link1": "https://link-hub.net/735289/volume-5-epub19",
-            "link2": "https://direct-link.net/735289/volume-5-pdf22"
       }
     ]
   },
