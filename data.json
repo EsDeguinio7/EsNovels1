@@ -1,5 +1,41 @@
 [
        {
+      "id": "0000214",
+      "title": "Chrono's War Record",
+      "cover": "https://cdn.novelupdates.com/images/2020/04/Kuro-no-Senki-LN.jpg",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Adult, Ecchi, Fantasy, Harem, Mature, Romance",
+      "alternative": "Kuro no Senki",
+      "authors": "Saito Ayumu",
+      "artist": "Mutsumi Masato",
+      "publisher": "N/A",
+      "translationGroup": "Infinite Novel Tls",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Chrono(real name Kurono) Crawford, a noble of the Cepheus Empire, had a secret. It was that he came from a different world… From modern Japan. He didn’t know how or why he was sent here, he wasn’t bestowed with any “cheat” abilities and his knowledge of modern technology was only that of a teenager’s.<br/><br/>A young man with modern values in a savage world, he is abandoned by his superiors, left in command of the Empire’s rejects consisting of demi-humans such as Minotaurs, Dwarves, and Elves, and thrust into a position as head of a poor fiefdom.<br/><br/>Chrono will do everything he can to rebuild and strengthen his forces and revitalize the land, aided in part by his knowledge from the other world. He is also aided by many capable women and becomes a harem king.",
+      "notes":"",
+      "volumesCount": "14",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://direct-link.net/735289/volume-1-epub208",
+            "link2": "https://link-target.net/735289/volume-1-pdf206"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://direct-link.net/735289/volume-2-epub85",
+            "link2": "https://link-center.net/735289/volume-2-pdf87"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-hub.net/735289/volume-3-epub60",
+            "link2": "https://link-target.net/735289/volume-3-pdf57"
+      }
+    ]
+  },
+       {
       "id": "0000173",
       "title": "Geek Mob Mercenary Knows His Place",
       "cover": "https://m.media-amazon.com/images/I/81VdoHpmNLL._SL1500_.jpg",
@@ -109,37 +145,6 @@
             "title": "Volume 7",
             "link1": "https://direct-link.net/735289/volume-7-epub13",
             "link2": "https://direct-link.net/735289/volume-7-pdf13"
-      }
-    ]
-  },
-       {
-      "id": "0000214",
-      "title": "Chrono's War Record",
-      "cover": "https://cdn.novelupdates.com/images/2020/04/Kuro-no-Senki-LN.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Adult, Ecchi, Fantasy, Harem, Mature, Romance",
-      "alternative": "Kuro no Senki",
-      "authors": "Saito Ayumu",
-      "artist": "Mutsumi Masato",
-      "publisher": "N/A",
-      "translationGroup": "Infinite Novel Tls",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Chrono(real name Kurono) Crawford, a noble of the Cepheus Empire, had a secret. It was that he came from a different world… From modern Japan. He didn’t know how or why he was sent here, he wasn’t bestowed with any “cheat” abilities and his knowledge of modern technology was only that of a teenager’s.<br/><br/>A young man with modern values in a savage world, he is abandoned by his superiors, left in command of the Empire’s rejects consisting of demi-humans such as Minotaurs, Dwarves, and Elves, and thrust into a position as head of a poor fiefdom.<br/><br/>Chrono will do everything he can to rebuild and strengthen his forces and revitalize the land, aided in part by his knowledge from the other world. He is also aided by many capable women and becomes a harem king.",
-      "notes":"",
-      "volumesCount": "14",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://direct-link.net/735289/volume-1-epub208",
-            "link2": "https://link-target.net/735289/volume-1-pdf206"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://direct-link.net/735289/volume-2-epub85",
-            "link2": "https://link-center.net/735289/volume-2-pdf87"
       }
     ]
   },
