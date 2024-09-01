@@ -1,5 +1,56 @@
 [
        {
+      "id": "0000028",
+      "title": "Alya Sometimes Hides Her Feelings in Russian",
+      "cover": "https://images.yenpress.com/imgs/9781975389505.jpg?w=408&h=612&type=books&s=d130d208dbdcca45c0a936f183ba2b18",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Comedy, Romance, School Life, Slice of Life",
+      "alternative": "Tokidoki Bosotto Roshia-go de Dereru Tonari no Alya-san",
+      "authors": "Sunsunsun",
+      "artist": "Momoco",
+      "publisher": "Yen Press",
+      "translationGroup": "N/A",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Smart, refined, and strikingly gorgeous, half-Russian half-Japanese Alisa Mikhailovna Kujou is considered the idol of her school. With her long silver hair, mesmerizing blue eyes, and exceptionally fair skin, she has captured the hearts of countless male students while being highly admired by all others. Even so, due to her seemingly unapproachable persona, everyone remains wary around the near-flawless girl.<br/><br/>One of the few exceptions is Alisa’s benchmate Masachika Kuze, a relatively average boy who spends his days watching anime and playing gacha games. Despite his nonchalant demeanor, Masachika is the sole student to receive Alisa’s attention. Unable to be fully honest, Alisa is frequently harsh on Masachika and only expresses her affection in Russian. Unbeknownst to her, however, Masachika actually understands the language yet simply pretends otherwise for his own amus**ent.<br/><br/>As the odd pair continues to exchange witty and playful remarks, their relationship gradually grows more romantic and delightful—and Alisa might finally learn to freely convey her true feelings.",
+      "notes":"",
+      "volumesCount": "9 + 1 Extra",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub36",
+            "link2": "https://link-target.net/735289/volume-1-pdf36"
+      },
+          {
+            "title": "Volume 2",
+            "link1": "https://direct-link.net/735289/volume-2-epub18",
+            "link2": "https://link-hub.net/735289/volume-2-pdf22"
+      },
+          {
+            "title": "Volume 3",
+            "link1": "https://direct-link.net/735289/volume-3-epub11",
+            "link2": "https://link-hub.net/735289/volume-3-pdf10"
+      },
+          {
+            "title": "Volume 4",
+            "link1": "https://direct-link.net/735289/volume-4-epub14",
+            "link2": "https://link-center.net/735289/volume-4-pdf16"
+      },
+             {
+            "title": "Volume 4.5",
+            "link1": "https://link-hub.net/735289/volume-45-epub",
+            "link2": "https://link-target.net/735289/volume-45-pdf"
+      },
+             {
+            "title": "Volume 5",
+            "link1": "https://link-center.net/735289/volume-5-epub28",
+            "link2": "https://direct-link.net/735289/volume-5-pdf31"
+      }
+    ]
+  },
+       {
       "id": "0000174",
       "title": "The Angel Next Door Spoils Me Rotten",
       "cover": "https://cdn.novelupdates.com/images/2023/01/Otonari-no-Tenshisama-ni-Itsu-no-Ma-ni-ka-Dame-Ningen-ni-Sareteita-Ken-WN.jpg",
@@ -6653,47 +6704,6 @@
             "title": "Volume 4",
             "link1": "https://link-target.net/735289/volume-4-epub18",
             "link2": "https://link-target.net/735289/volume-4-pdf20"
-      }
-    ]
-  },
-    {
-      "id": "0000028",
-      "title": "Alya Sometimes Hides Her Feelings in Russian",
-      "cover": "https://cdn.novelupdates.com/images/2021/06/The-Neighboring-Aaryasan-who-Sometimes-Acts-Affectionate-and-Murmuring-in-Russian.jpeg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Comedy, Romance, School Life, Slice of Life",
-      "alternative": "Tokidoki Bosotto Roshia-go de Dereru Tonari no Alya-san",
-      "authors": "Sunsunsun",
-      "artist": "Momoco",
-      "publisher": "Yen Press",
-      "translationGroup": "N/A",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Smart, refined, and strikingly gorgeous, half-Russian half-Japanese Alisa Mikhailovna Kujou is considered the idol of her school. With her long silver hair, mesmerizing blue eyes, and exceptionally fair skin, she has captured the hearts of countless male students while being highly admired by all others. Even so, due to her seemingly unapproachable persona, everyone remains wary around the near-flawless girl.<br/><br/>One of the few exceptions is Alisa’s benchmate Masachika Kuze, a relatively average boy who spends his days watching anime and playing gacha games. Despite his nonchalant demeanor, Masachika is the sole student to receive Alisa’s attention. Unable to be fully honest, Alisa is frequently harsh on Masachika and only expresses her affection in Russian. Unbeknownst to her, however, Masachika actually understands the language yet simply pretends otherwise for his own amus**ent.<br/><br/>As the odd pair continues to exchange witty and playful remarks, their relationship gradually grows more romantic and delightful—and Alisa might finally learn to freely convey her true feelings.",
-      "notes":"",
-      "volumesCount": "7 + 1 Extra",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub36",
-            "link2": "https://link-target.net/735289/volume-1-pdf36"
-      },
-          {
-            "title": "Volume 2",
-            "link1": "https://direct-link.net/735289/volume-2-epub18",
-            "link2": "https://link-hub.net/735289/volume-2-pdf22"
-      },
-          {
-            "title": "Volume 3",
-            "link1": "https://direct-link.net/735289/volume-3-epub11",
-            "link2": "https://link-hub.net/735289/volume-3-pdf10"
-      },
-          {
-            "title": "Volume 4",
-            "link1": "https://direct-link.net/735289/volume-4-epub14",
-            "link2": "https://link-center.net/735289/volume-4-pdf16"
       }
     ]
   },
