@@ -1,5 +1,56 @@
 [
        {
+      "id": "0000123",
+      "title": "The Eminence In Shadow",
+      "cover": "https://static.wikia.nocookie.net/to-be-a-power-in-the-shadows/images/2/24/Cover-LN-V6.png/revision/latest?cb=20231130025336",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Adventure, Comedy, Fantasy, Harem, Martial Arts, School Life",
+      "alternative": "Kage no Jitsuryokusha ni Naritakute!",
+      "authors": "Aizawa Daisuke",
+      "artist": "Touzai",
+      "publisher": "Yen Press",
+      "translationGroup": "Gadgedtizedpanda",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Just like how everyone adored heroes in their childhood, a certain young man adored those powers hidden in shadows. After hiding his strength and living the mediocre life of a mob character by day while undergoing frenzied training by night, he finally reincarnates into a different world and gains ultimate power. The young man who is only playing at being a power in the shadows, his misunderstanding subordinates, and a giant organization in the shadows that gets trampled…. This is the story of a young boy who had adored powers in shadows possibly eventually reigning over the world of shadows in another world.",
+      "notes":"",
+      "volumesCount": "6",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "http://lyksoomu.com/GS5b",
+            "link2": "http://lyksoomu.com/GS64"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "http://lyksoomu.com/GS6I",
+            "link2": "http://lyksoomu.com/GS6Z"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "http://lyksoomu.com/GS6l",
+            "link2": "http://lyksoomu.com/GS76"
+      },
+             {
+            "title": "Volume 4",
+            "link1": "http://lyksoomu.com/GS7K",
+            "link2": "http://lyksoomu.com/GS7a"
+      },
+             {
+            "title": "Volume 5",
+            "link1": "https://direct-link.net/735289/volume-5-epub29",
+            "link2": "https://link-hub.net/735289/volume-5-pdf32"
+      },
+             {
+            "title": "Volume 6",
+            "link1": "https://link-hub.net/735289/volume-6-epub11",
+            "link2": "https://link-center.net/735289/volume-6-pdf11"
+      }
+    ]
+  },
+       {
       "id": "0000226",
       "title": "Riviere and the Land of Prayer",
       "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/04/Riviere-and-the-Land-of-Prayer-v01.jpg?w=500&ssl=1",
@@ -4148,57 +4199,6 @@
             "title": "Volume 1",
             "link1": "https://link-hub.net/735289/volume-1-epub134",
             "link2": "https://link-hub.net/735289/volume-1-pdf136"
-      }
-    ]
-  },
-       {
-      "id": "0000123",
-      "title": "The Eminence In Shadow",
-      "cover": "https://esdeguinio7.github.io/esnovels/Image/The%20Eminence%20In%20Shadow.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Adventure, Comedy, Fantasy, Harem, Martial Arts, School Life",
-      "alternative": "Kage no Jitsuryokusha ni Naritakute!",
-      "authors": "Aizawa Daisuke",
-      "artist": "Touzai",
-      "publisher": "N/A",
-      "translationGroup": "Arbatel & Gadgedtizedpanda",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Just like how everyone adored heroes in their childhood, a certain young man adored those powers hidden in shadows. After hiding his strength and living the mediocre life of a mob character by day while undergoing frenzied training by night, he finally reincarnates into a different world and gains ultimate power. The young man who is only playing at being a power in the shadows, his misunderstanding subordinates, and a giant organization in the shadows that gets trampled…. This is the story of a young boy who had adored powers in shadows possibly eventually reigning over the world of shadows in another world.",
-      "notes":"",
-      "volumesCount": "6",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "http://lyksoomu.com/GS5b",
-            "link2": "http://lyksoomu.com/GS64"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "http://lyksoomu.com/GS6I",
-            "link2": "http://lyksoomu.com/GS6Z"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "http://lyksoomu.com/GS6l",
-            "link2": "http://lyksoomu.com/GS76"
-      },
-             {
-            "title": "Volume 4",
-            "link1": "http://lyksoomu.com/GS7K",
-            "link2": "http://lyksoomu.com/GS7a"
-      },
-             {
-            "title": "Volume 5",
-            "link1": "http://lyksoomu.com/14mro",
-            "link2": "http://lyksoomu.com/14mrz"
-      },
-             {
-            "title": "Volume 6",
-            "link1": "https://link-hub.net/735289/volume-6-epub11",
-            "link2": "https://link-center.net/735289/volume-6-pdf11"
       }
     ]
   },
