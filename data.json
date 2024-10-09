@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000245",
+      "title": "Date A Live SS",
+      "cover": "https://esdeguinio7.github.io/esnovels/Image/date-a-live-game-novels.png",
+      "type": "Light Novel",
+      "status": "N/A",
+      "genre": "Action, Comedy, Drama, Ecchi, Fantasy, Harem, Mecha, Romance, School Life, Sci-fi, Shounen, Supernatural",
+      "alternative": "N/A",
+      "authors": "Koushi Tachibana",
+      "artist": "Tsunako",
+      "publisher": "N/A",
+      "translationGroup": "N/A",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "N/A",
+      "notes":"",
+      "volumesCount": "4",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "http://lyksoomu.com/ffK7",
+            "link2": "http://lyksoomu.com/ffL4"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "http://lyksoomu.com/ffLn",
+            "link2": "http://lyksoomu.com/ffQJ"
+      }
+    ]
+  },
+       {
       "id": "0000228",
       "title": "I Got A Cheat Ability In A Different World, And Become Extraordinary Even In The Real World",
       "cover": "https://nyx-translation.com/wp-content/uploads/2020/10/00005.jpeg",
