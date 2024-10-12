@@ -1,5 +1,36 @@
 [
        {
+      "id": "0000244",
+      "title": "Have a Coffee After School, In Another World’s Café",
+      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi588ce7GNhL_2ZhZT9iTn8WpP0Ek6cLBErtZhFOdovpNse0LyZ_IFxXe7yvA3D1h3mGflqCJuIrbg1nl6ybg5j4e6zdNK4d67h9UB5gAp6Wpsbgxl_R8iVoMvsJ-I8KGk9mDr24apS8kg/w454-h640/01.jpg",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Fantasy, Seinen, Slice of Life",
+      "alternative": "Houkago wa, Isekai Kissa de Coffee wo",
+      "authors": "Kazamidori",
+      "artist": "U-suke",
+      "publisher": "N/A",
+      "translationGroup": "Skythewood",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "Yuu found himself in another world, here he spends his time not adventuring in the town’s labyrinth, nor hunting down a demon lord, but running the world’s only café.<br/><br/>His days pass as he hopes for an upswing in popularity and works towards keeping his… eccentric regulars happy. One day, a student at the town’s magic academy finds his café when looking for a quiet place to study, how will things develop from here?",
+      "notes":"",
+      "volumesCount": "6",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub234",
+            "link2": "https://link-hub.net/735289/volume-1-pdf232"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://direct-link.net/735289/volume-2-epub95",
+            "link2": "https://link-target.net/735289/volume-2-pdf97"
+      }
+    ]
+  },
+       {
       "id": "0000247",
       "title": "I Want to Live the Harem Life of My Dreams With the Hypnosis App I Got",
       "cover": "https://cdn.novelupdates.com/images/2024/03/I-want-to-live-the-harem-life-of-my-dreams-with-the-hypnosis-app-I-got.jpeg",
@@ -132,33 +163,7 @@
             "link2": "https://link-hub.net/735289/volume-5-pdf37"
       }
     ]
-  },
-       {
-      "id": "0000244",
-      "title": "Have a Coffee After School, In Another World’s Café",
-      "cover": "https://cdn.novelupdates.com/images/2019/03/houkagocafev1a.jpg",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Fantasy, Seinen, Slice of Life",
-      "alternative": "Houkago wa, Isekai Kissa de Coffee wo",
-      "authors": "Kazamidori",
-      "artist": "U-suke",
-      "publisher": "N/A",
-      "translationGroup": "Skythewood",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "Yuu found himself in another world, here he spends his time not adventuring in the town’s labyrinth, nor hunting down a demon lord, but running the world’s only café.<br/><br/>His days pass as he hopes for an upswing in popularity and works towards keeping his… eccentric regulars happy. One day, a student at the town’s magic academy finds his café when looking for a quiet place to study, how will things develop from here?",
-      "notes":"",
-      "volumesCount": "6",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub234",
-            "link2": "https://link-hub.net/735289/volume-1-pdf232"
-      }
-    ]
-  },
+  }, 
        {
       "id": "0000243",
       "title": "The Cheeky Junior Gal Becomes Too Cute When She Gets Attached to Me",
