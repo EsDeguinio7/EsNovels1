@@ -1,5 +1,56 @@
 [
         {
+      "id": "0000244",
+      "title": "Have a Coffee After School, In Another World’s Café",
+      "cover": "https://blogger.googleusercontent.com/img/a/AVvXsEjfAmzddH0tWiKkGk4kp7oiYyEmkJ4m_w6RfWK2OvvS9ojNYXmrQDWtW3sTtHsQPftPCE5NeBxSldgO7fmYoIQiFPhE0i0uWjIV-nau2MefgGCIqJlHHbIcqRJTP5CDTqop-4I_sUyQcskvMpSxveezh9hFHMXSKTLETJ__FHEVZD2AiQCjHT3JUfI9=w450-h640",
+      "type": "Light Novel",
+      "status": "Completed",
+      "genre": "Fantasy, Seinen, Slice of Life",
+      "alternative": "Houkago wa, Isekai Kissa de Coffee wo",
+      "authors": "Kazamidori",
+      "artist": "U-suke",
+      "publisher": "N/A",
+      "translationGroup": "Skythewood",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "Yuu found himself in another world, here he spends his time not adventuring in the town’s labyrinth, nor hunting down a demon lord, but running the world’s only café.<br/><br/>His days pass as he hopes for an upswing in popularity and works towards keeping his… eccentric regulars happy. One day, a student at the town’s magic academy finds his café when looking for a quiet place to study, how will things develop from here?",
+      "notes":"",
+      "volumesCount": "6",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub234",
+            "link2": "https://link-hub.net/735289/volume-1-pdf232"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://direct-link.net/735289/volume-2-epub95",
+            "link2": "https://link-target.net/735289/volume-2-pdf97"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-target.net/735289/volume-3-epub66",
+            "link2": "https://link-hub.net/735289/volume-3-pdf63"
+      },
+              {
+            "title": "Volume 4",
+            "link1": "https://direct-link.net/735289/volume-4-epub46",
+            "link2": "https://link-hub.net/735289/volume-4-pdf49"
+      },
+              {
+            "title": "Volume 5",
+            "link1": "https://link-center.net/735289/volume-5-epub36",
+            "link2": "https://link-center.net/735289/volume-5-pdf39"
+      },
+              {
+            "title": "Volume 6",
+            "link1": "https://direct-link.net/735289/volume-6-epub29",
+            "link2": "https://link-hub.net/735289/volume-6-pdf27"
+      }
+    ]
+  },
+        {
       "id": "0000173",
       "title": "The Dorky NPC Mercenary Knows His Place",
       "cover": "https://m.media-amazon.com/images/I/816oW06RxrL._SY425_.jpg",
@@ -231,52 +282,6 @@
             "title": "Volume 10",
             "link1": "https://link-hub.net/735289/volume-10-epub10",
             "link2": "https://link-target.net/735289/volume-10-pdf10"
-      }
-    ]
-  },
-        {
-      "id": "0000244",
-      "title": "Have a Coffee After School, In Another World’s Café",
-      "cover": "https://blogger.googleusercontent.com/img/a/AVvXsEi7QiAfasppgsUn-d_6qfxR5sJZeloKCwzWC6e_d19SQS7bDOW7EHFP5qS7K5t-JBLvHSHRRCulv6-Ga7KqTPpQM_95IETgyL6CBWb17F0X3ngVh9a9ES4H6qdxXZrFu5-ck5W_-B3dMn8VjHZF8RKFnQiA-0-0DdRWMqKOrU-CLv3alknjOgg1Liwg=w450-h640",
-      "type": "Light Novel",
-      "status": "Completed",
-      "genre": "Fantasy, Seinen, Slice of Life",
-      "alternative": "Houkago wa, Isekai Kissa de Coffee wo",
-      "authors": "Kazamidori",
-      "artist": "U-suke",
-      "publisher": "N/A",
-      "translationGroup": "Skythewood",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "Yuu found himself in another world, here he spends his time not adventuring in the town’s labyrinth, nor hunting down a demon lord, but running the world’s only café.<br/><br/>His days pass as he hopes for an upswing in popularity and works towards keeping his… eccentric regulars happy. One day, a student at the town’s magic academy finds his café when looking for a quiet place to study, how will things develop from here?",
-      "notes":"",
-      "volumesCount": "6",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub234",
-            "link2": "https://link-hub.net/735289/volume-1-pdf232"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://direct-link.net/735289/volume-2-epub95",
-            "link2": "https://link-target.net/735289/volume-2-pdf97"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "https://link-target.net/735289/volume-3-epub66",
-            "link2": "https://link-hub.net/735289/volume-3-pdf63"
-      },
-              {
-            "title": "Volume 4",
-            "link1": "https://direct-link.net/735289/volume-4-epub46",
-            "link2": "https://link-hub.net/735289/volume-4-pdf49"
-      },
-              {
-            "title": "Volume 5",
-            "link1": "https://link-center.net/735289/volume-5-epub36",
-            "link2": "https://link-center.net/735289/volume-5-pdf39"
       }
     ]
   },
