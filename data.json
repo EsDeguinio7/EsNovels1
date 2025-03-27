@@ -1,5 +1,46 @@
 [
       {
+      "id": "0000173",
+      "title": "The Dorky NPC Mercenary Knows His Place",
+      "cover": "https://m.media-amazon.com/images/I/51O+YZFje5L._SY445_SX342_.jpg",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Adventure, Comedy, Harem, Sci-fi",
+      "alternative": "Kimootamobu yōhei wa, minohodo o ben (waki ma) eru",
+      "authors": "Mogura",
+      "artist": "ハム",
+      "publisher": "J-Novel Club",
+      "translationGroup": "Gadgetized Panda",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "The Galactic Empire – a superpower that claims 70% of the inhabited planets in the known space as its territory. In this vast empire, John Uzoss made his living as a mercenary. He considered himself an “otaku” and a “mob” and lived by the motto of “know your place, don’t overdo it,” trying to lead a peaceful life day by day. As a result, he always went all out to avoid any flags that might lead to events!<br/><br/>However, the protagonist characters around him always seemed to inexplicably self-destruct, one after another…! Despite his best efforts to stay a mob no matter the request.<br/><br/>“I’ll put it bluntly. Would you consider switching to my side?”<br/><br/>“Would you like to join my team as staff?”<br/><br/>His unwavering commitment to being a mob, cultivated through years of experience, along with his swift and precise decision-making skills and unshakable mental fortitude in the face of trivial matters, earned him the nickname “Dust” by some out of awe. But there were those who watched him closely, biding their time…?<br/><br/>Unbeknownst to him, it’s a thrilling space fantasy featuring an unwittingly talented mob mercenary!",
+      "notes":"",
+      "volumesCount": "4",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub269",
+            "link2": "https://direct-link.net/735289/volume-1-pdf267"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://direct-link.net/735289/volume-2-epub116",
+            "link2": "https://link-target.net/735289/volume-2-pdf118"
+      },
+              {
+            "title": "Volume 3",
+            "link1": "https://link-hub.net/735289/dorky-npc-3-epub",
+            "link2": "https://link-target.net/735289/dorky-npc-3-pdf"
+      },
+            {
+            "title": "Volume 4",
+            "link1": "https://link-center.net/735289/dorky-npc-4-epub",
+            "link2": "https://link-center.net/735289/dorky-npc-4-pdf"
+      }
+    ]
+  },
+      {
       "id": "0000019",
       "title": "Can a Boy–Girl Friendship Hold Up? (No, It Can't!!)",
       "cover": "https://m.media-amazon.com/images/I/51guAJaWxaS._SY445_SX342_.jpg",
@@ -905,42 +946,6 @@
             "title": "Volume 6",
             "link1": "https://direct-link.net/735289/volume-6-epub29",
             "link2": "https://link-hub.net/735289/volume-6-pdf27"
-      }
-    ]
-  },
-        {
-      "id": "0000173",
-      "title": "The Dorky NPC Mercenary Knows His Place",
-      "cover": "https://m.media-amazon.com/images/I/816oW06RxrL._SY425_.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Adventure, Comedy, Harem, Sci-fi",
-      "alternative": "Kimootamobu yōhei wa, minohodo o ben (waki ma) eru",
-      "authors": "Mogura",
-      "artist": "ハム",
-      "publisher": "J-Novel Club",
-      "translationGroup": "Gadgetized Panda",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "The Galactic Empire – a superpower that claims 70% of the inhabited planets in the known space as its territory. In this vast empire, John Uzoss made his living as a mercenary. He considered himself an “otaku” and a “mob” and lived by the motto of “know your place, don’t overdo it,” trying to lead a peaceful life day by day. As a result, he always went all out to avoid any flags that might lead to events!<br/><br/>However, the protagonist characters around him always seemed to inexplicably self-destruct, one after another…! Despite his best efforts to stay a mob no matter the request.<br/><br/>“I’ll put it bluntly. Would you consider switching to my side?”<br/><br/>“Would you like to join my team as staff?”<br/><br/>His unwavering commitment to being a mob, cultivated through years of experience, along with his swift and precise decision-making skills and unshakable mental fortitude in the face of trivial matters, earned him the nickname “Dust” by some out of awe. But there were those who watched him closely, biding their time…?<br/><br/>Unbeknownst to him, it’s a thrilling space fantasy featuring an unwittingly talented mob mercenary!",
-      "notes":"",
-      "volumesCount": "3",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub269",
-            "link2": "https://direct-link.net/735289/volume-1-pdf267"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://direct-link.net/735289/volume-2-epub116",
-            "link2": "https://link-target.net/735289/volume-2-pdf118"
-      },
-              {
-            "title": "Volume 3",
-            "link1": "https://link-center.net/735289/volume-3-epub75",
-            "link2": "https://link-target.net/735289/volume-3-pdf72"
       }
     ]
   },
