@@ -1,5 +1,46 @@
 [
       {
+      "id": "0000195",
+      "title": "This is Wizard’s Last Card",
+      "cover": "https://jptranslation5.wordpress.com/wp-content/uploads/2025/06/10001935044988793661076330340.jpg?w=721",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Action, Fantasy, Mystery, School Life, Supernatural",
+      "alternative": "これが魔法使いの切り札",
+      "authors": "Hitsuji Tarou",
+      "artist": "Mishima Kurone",
+      "publisher": "N/A",
+      "translationGroup": "JP Translations for fun",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "no",
+      "synopsis": "Not about strength. “Become a Mage to live joyfully.”<br/><br/>Seeking a life beyond combat, swordsman Rix enrols in a magic academy. Despite being deemed unfit for magic, Rix navigates campus life with sheer combat prowess, striving to grasp a new way of life through his unique ‘magic’.",
+      "notes":"",
+      "volumesCount": "4",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-epub189",
+            "link2": "https://link-center.net/735289/volume-1-pdf187"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-hub.net/735289/volume-2-epub83",
+            "link2": "https://direct-link.net/735289/volume-2-pdf85"
+      },
+             {
+            "title": "Volume 3",
+            "link1": "https://link-target.net/735289/volume-3-epub61",
+            "link2": "https://link-hub.net/735289/volume-3-pdf58"
+      },
+            {
+            "title": "Volume 4",
+            "link1": "https://link-hub.net/735289/s9uj36c574Bc",
+            "link2": "https://link-center.net/735289/WCDGIKCa2h4U"
+      }
+    ]
+  },
+      {
       "id": "0000019",
       "title": "Can a Boy–Girl Friendship Hold Up? (No, It Can't!!)",
       "cover": "https://m.media-amazon.com/images/I/71tSgMcWB5L._SY385_.jpg",
@@ -4439,43 +4480,6 @@
             "title": "Volume 1",
             "link1": "https://direct-link.net/735289/volume-1-epub219",
             "link2": "https://link-center.net/735289/volume-1-pdf217"
-      }
-    ]
-  },
-
-       {
-      "id": "0000195",
-      "title": "This is Wizard’s Last Card",
-      "cover": "https://jptranslation5.wordpress.com/wp-content/uploads/2024/07/eehhenhe_o7910874040134968907.jpg?w=721",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Action, Fantasy, Mystery, School Life, Supernatural",
-      "alternative": "これが魔法使いの切り札",
-      "authors": "Hitsuji Tarou",
-      "artist": "Mishima Kurone",
-      "publisher": "N/A",
-      "translationGroup": "JP Translations for fun",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "no",
-      "synopsis": "Not about strength. “Become a Mage to live joyfully.”<br/><br/>Seeking a life beyond combat, swordsman Rix enrols in a magic academy. Despite being deemed unfit for magic, Rix navigates campus life with sheer combat prowess, striving to grasp a new way of life through his unique ‘magic’.",
-      "notes":"",
-      "volumesCount": "3",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-hub.net/735289/volume-1-epub189",
-            "link2": "https://link-center.net/735289/volume-1-pdf187"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-hub.net/735289/volume-2-epub83",
-            "link2": "https://direct-link.net/735289/volume-2-pdf85"
-      },
-             {
-            "title": "Volume 3",
-            "link1": "https://link-target.net/735289/volume-3-epub61",
-            "link2": "https://link-hub.net/735289/volume-3-pdf58"
       }
     ]
   },
