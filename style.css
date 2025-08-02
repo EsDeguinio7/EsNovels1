@@ -80,9 +80,10 @@ input[type=text], select {
 
 #bars {
     float: left;
-    font-size: 23px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    margin: 18px 0 0 15px;
+    margin: 15px 0 0 15px;
 }
 
 #search {
