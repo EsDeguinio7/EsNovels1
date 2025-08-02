@@ -88,9 +88,10 @@ input[type=text], select {
 
 #search {
     float: right;
-    font-size: 20px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    margin: 20px 10px 0 0;
+    margin: 16px 10px 0 0;
 }
 
 h2 {
