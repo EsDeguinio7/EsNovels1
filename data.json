@@ -1,5 +1,36 @@
 [
       {
+      "id": "0000222",
+      "title": "Please Leave Me Alone",
+      "cover": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvjFoIttRHCpNM535xWxoAAoixX4OkJ8ox1nTpxDlCZR-EFnzMDUw3cNP-SjCsp7el8drWacfCHmPnNGd647ah2IN0YLwWjkmbeaL6nSc6848BtAAan9RWCDbbeWzys4uhmh_LbaBAr8VLYx7ltsrsWWk3I3A3FULNTA4uF_Dki3AEi_fphEp4tjfyCLCI/w448-h640/dsfsdfs.jpg",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Comedy, Fantasy, Romance, School Life",
+      "alternative": "どうか俺を放っておいてくれ なぜかぼっちの終わった高校生活を彼女が変えようとしてくる",
+      "authors": "Kabegiwa Aizaki",
+      "artist": "Uda Mamyo",
+      "publisher": "N/A",
+      "translationGroup": "Skythewood",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "“Let’s start a strategy meeting for making friends.”<br/><br/>This is a story about her and me. It’s the worst and the best second-life high school rom-com ever.<br/><br/>Love, friendship, and the sparkling joys of youth. The high school life that I’ve looked forward to- still ended with me being alone. Then, just a day before the graduation ceremony…<br/><br/>“Don’t die! Nanamura-kun!”<br/><br/>Sora Hanamitsuji, she’s a beautiful girl that even models can’t compare. My life ended after getting hit by a truck to protect her. …That should’ve been the case.<br/><br/>“It must be because the gods got bored.”<br/><br/>However, with this accident, Hanamitsuji-san and I returned to the day of our high school’s entrance ceremony. The second high school life is no longer as charming and youthful. I was going to spend it modestly and alone. …But, she said that won’t do.<br/><br/>“Well, I’ll help you make friends.”<br/><br/>This is a story about my second high school life. It’s the worst and best teenage rom-com ever.",      
+      "notes":"Manga Special is very short so I just combined it with Volume 2",
+      "volumesCount": "3",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-hub.net/735289/volume-1-epub216",
+            "link2": "https://link-hub.net/735289/volume-1-pdf214"
+      },
+            {
+            "title": "Volume 2 & Manga Special Short Stories",
+            "link1": "https://link-target.net/735289/7JpIl6f5ETyL",
+            "link2": "https://direct-link.net/735289/8ujF2ISCZpAZ"
+      }
+    ]
+  },
+      {
       "id": "0000334",
       "title": "Koroshiya-san to Hajimeru Icha Love Shinkon Seikatsu",
       "cover": "https://cdn.novelupdates.com/images/2022/09/Koroshiyasan-to-Hajimeru-Icha-Love-Shinkon-Seikatsu.jpg",
@@ -5135,31 +5166,6 @@
             "title": "Volume 1",
             "link1": "https://direct-link.net/735289/volume-1-epub218",
             "link2": "https://direct-link.net/735289/volume-1-pdf216"
-      }
-    ]
-  },
-       {
-      "id": "0000222",
-      "title": "Please Leave Me Alone",
-      "cover": "https://cdn.novelupdates.com/images/2022/02/Please-Leave-Me-Alone.jpg",
-      "type": "Light Novel",
-      "status": "Axed/Completed",
-      "genre": "Comedy, Fantasy, Romance, School Life",
-      "alternative": "どうか俺を放っておいてくれ なぜかぼっちの終わった高校生活を彼女が変えようとしてくる",
-      "authors": "Kabegiwa Aizaki",
-      "artist": "Uda Mamyo",
-      "publisher": "N/A",
-      "translationGroup": "Skythewood",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "“Let’s start a strategy meeting for making friends.”<br/><br/>This is a story about her and me. It’s the worst and the best second-life high school rom-com ever.<br/><br/>Love, friendship, and the sparkling joys of youth. The high school life that I’ve looked forward to- still ended with me being alone. Then, just a day before the graduation ceremony…<br/><br/>“Don’t die! Nanamura-kun!”<br/><br/>Sora Hanamitsuji, she’s a beautiful girl that even models can’t compare. My life ended after getting hit by a truck to protect her. …That should’ve been the case.<br/><br/>“It must be because the gods got bored.”<br/><br/>However, with this accident, Hanamitsuji-san and I returned to the day of our high school’s entrance ceremony. The second high school life is no longer as charming and youthful. I was going to spend it modestly and alone. …But, she said that won’t do.<br/><br/>“Well, I’ll help you make friends.”<br/><br/>This is a story about my second high school life. It’s the worst and best teenage rom-com ever.",      "notes":"",
-      "volumesCount": "2",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-hub.net/735289/volume-1-epub216",
-            "link2": "https://link-hub.net/735289/volume-1-pdf214"
       }
     ]
   },
