@@ -1,5 +1,41 @@
 [
       {
+      "id": "0000116",
+      "title": "Rich Girl Caretaker",
+      "cover": "https://m.media-amazon.com/images/I/81LYaJOcvtL._SY385_.jpg",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Comedy, Drama, Harem, Romance, School Life, Shounen",
+      "alternative": "Takane no Hana",
+      "authors": "Sakaishi Yuusaku",
+      "artist": "Miwabe Sakura",
+      "publisher": "N/A",
+      "translationGroup": "Neosekai & DND-TRANSLATION",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "A high school boy, Itsuki Tomonari, gets involved in a kidnapping and ends up taking care of Hinako Konohana, a young lady from one of Japan’s largest conglomerates.<br/><br/>On the surface, Hinako seems to be a brilliant and charming girl, but in reality, she is a lazy girl with no life skills. However, due to family reasons, Hinako has to play the role of the “perfect young lady” at school.<br/><br/>Wanting to protect her, Itsuki takes care of her in a very caring manner. Eventually, Hinako begins to fawn on Itsuki with all her might…<br/><br/>“Now…if Itsuki isn’t around, I would hate it.”<br/><br/>This is a love story that begins with a cute young lady with a gap that transcends the master-servant relationship.",
+      "notes":"",
+      "volumesCount": "9",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub12",
+            "link2": "https://link-target.net/735289/volume-1-pdf12"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-center.net/735289/volume-2-epub6",
+            "link2": "https://link-center.net/735289/volume-2-pdf7"
+      },
+            {
+            "title": "Volume 3",
+            "link1": "https://link-center.net/735289/N6NL5Xe0rTQj",
+            "link2": "https://link-target.net/735289/Tu1CDlP4Ffsb"
+      }
+    ]
+  },
+      {
       "id": "0000273",
       "title": "Repeat Vice – The Villainous Noble Doesn’t Want to Die, So He Swore to Not Die As One of The Four Heavenly Kings",
       "cover": "https://m.media-amazon.com/images/I/81h0w8HYe0L._SY385_.jpg",
@@ -2145,37 +2181,6 @@
             "title": "Volume 3",
             "link1": "https://direct-link.net/735289/C1xvUP6hTRg1",
             "link2": "https://link-target.net/735289/ldK85JcCoAvI"
-      }
-    ]
-  },
-      {
-      "id": "0000116",
-      "title": "Rich Girl Caretaker",
-      "cover": "https://cdn.novelupdates.com/images/2021/05/Takane-No-Hana-LN.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Comedy, Drama, Harem, Romance, School Life, Shounen",
-      "alternative": "Takane no Hana",
-      "authors": "Sakaishi Yuusaku",
-      "artist": "Miwabe Sakura",
-      "publisher": "N/A",
-      "translationGroup": "Neosekai",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "A high school boy, Itsuki Tomonari, gets involved in a kidnapping and ends up taking care of Hinako Konohana, a young lady from one of Japan’s largest conglomerates.<br/><br/>On the surface, Hinako seems to be a brilliant and charming girl, but in reality, she is a lazy girl with no life skills. However, due to family reasons, Hinako has to play the role of the “perfect young lady” at school.<br/><br/>Wanting to protect her, Itsuki takes care of her in a very caring manner. Eventually, Hinako begins to fawn on Itsuki with all her might…<br/><br/>“Now…if Itsuki isn’t around, I would hate it.”<br/><br/>This is a love story that begins with a cute young lady with a gap that transcends the master-servant relationship.",
-      "notes":"",
-      "volumesCount": "9",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub12",
-            "link2": "https://link-target.net/735289/volume-1-pdf12"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-center.net/735289/volume-2-epub6",
-            "link2": "https://link-center.net/735289/volume-2-pdf7"
       }
     ]
   },
