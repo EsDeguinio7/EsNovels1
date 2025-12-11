@@ -1,5 +1,46 @@
 [
       {
+      "id": "0000116",
+      "title": "Rich Girl Caretaker",
+      "cover": "https://m.media-amazon.com/images/I/71O-UaM9IsL._SL1500_.jpg",
+      "type": "Light Novel",
+      "status": "Ongoing",
+      "genre": "Comedy, Drama, Harem, Romance, School Life, Shounen",
+      "alternative": "Takane no Hana",
+      "authors": "Sakaishi Yuusaku",
+      "artist": "Miwabe Sakura",
+      "publisher": "N/A",
+      "translationGroup": "Neosekai & DND-TRANSLATION",
+      "recommended": "yes",
+      "newUpdate": "yes",
+      "addToFav": "yes",
+      "synopsis": "A high school boy, Itsuki Tomonari, gets involved in a kidnapping and ends up taking care of Hinako Konohana, a young lady from one of Japan’s largest conglomerates.<br/><br/>On the surface, Hinako seems to be a brilliant and charming girl, but in reality, she is a lazy girl with no life skills. However, due to family reasons, Hinako has to play the role of the “perfect young lady” at school.<br/><br/>Wanting to protect her, Itsuki takes care of her in a very caring manner. Eventually, Hinako begins to fawn on Itsuki with all her might…<br/><br/>“Now…if Itsuki isn’t around, I would hate it.”<br/><br/>This is a love story that begins with a cute young lady with a gap that transcends the master-servant relationship.",
+      "notes":"",
+      "volumesCount": "9",
+      "volumes": [
+         {
+            "title": "Volume 1",
+            "link1": "https://link-center.net/735289/volume-1-epub12",
+            "link2": "https://link-target.net/735289/volume-1-pdf12"
+      },
+             {
+            "title": "Volume 2",
+            "link1": "https://link-center.net/735289/volume-2-epub6",
+            "link2": "https://link-center.net/735289/volume-2-pdf7"
+      },
+            {
+            "title": "Volume 3",
+            "link1": "https://link-center.net/735289/N6NL5Xe0rTQj",
+            "link2": "https://link-target.net/735289/Tu1CDlP4Ffsb"
+      },
+            {
+            "title": "Volume 4",
+            "link1": "https://link-hub.net/735289/iE2JyF4NjqOc",
+            "link2": "https://link-target.net/735289/wRf3J5hhBWuE"
+      }
+    ]
+  },
+      {
       "id": "0000344",
       "title": "Something as Simple as Reincarnation Can’t Fill the Hole in My Heart",
       "cover": "https://m.media-amazon.com/images/I/71mDIWAHooL._SL1419_.jpg",
@@ -99,42 +140,6 @@
             "title": "Volume 5 (End)",
             "link1": "https://link-target.net/735289/PMkhYsQNX0qs",
             "link2": "https://link-center.net/735289/lUbAVMIcA5jK"
-      }
-    ]
-  },
-      {
-      "id": "0000116",
-      "title": "Rich Girl Caretaker",
-      "cover": "https://m.media-amazon.com/images/I/81LYaJOcvtL._SY385_.jpg",
-      "type": "Light Novel",
-      "status": "Ongoing",
-      "genre": "Comedy, Drama, Harem, Romance, School Life, Shounen",
-      "alternative": "Takane no Hana",
-      "authors": "Sakaishi Yuusaku",
-      "artist": "Miwabe Sakura",
-      "publisher": "N/A",
-      "translationGroup": "Neosekai & DND-TRANSLATION",
-      "recommended": "yes",
-      "newUpdate": "yes",
-      "addToFav": "yes",
-      "synopsis": "A high school boy, Itsuki Tomonari, gets involved in a kidnapping and ends up taking care of Hinako Konohana, a young lady from one of Japan’s largest conglomerates.<br/><br/>On the surface, Hinako seems to be a brilliant and charming girl, but in reality, she is a lazy girl with no life skills. However, due to family reasons, Hinako has to play the role of the “perfect young lady” at school.<br/><br/>Wanting to protect her, Itsuki takes care of her in a very caring manner. Eventually, Hinako begins to fawn on Itsuki with all her might…<br/><br/>“Now…if Itsuki isn’t around, I would hate it.”<br/><br/>This is a love story that begins with a cute young lady with a gap that transcends the master-servant relationship.",
-      "notes":"",
-      "volumesCount": "9",
-      "volumes": [
-         {
-            "title": "Volume 1",
-            "link1": "https://link-center.net/735289/volume-1-epub12",
-            "link2": "https://link-target.net/735289/volume-1-pdf12"
-      },
-             {
-            "title": "Volume 2",
-            "link1": "https://link-center.net/735289/volume-2-epub6",
-            "link2": "https://link-center.net/735289/volume-2-pdf7"
-      },
-            {
-            "title": "Volume 3",
-            "link1": "https://link-center.net/735289/N6NL5Xe0rTQj",
-            "link2": "https://link-target.net/735289/Tu1CDlP4Ffsb"
       }
     ]
   },
